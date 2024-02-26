@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class First {
-    public First() {
-    }
 
     public static void main(String[] args) {
         double pi = 3.14;

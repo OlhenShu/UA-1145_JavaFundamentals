@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/UA-1145_JavaFundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/UA-1145_JavaFundamentals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../edu01/Zapovit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../edu01/Zapovit.txt" afterDir="false" />
+    <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="homework 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/Second.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/Third.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +20,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../.." source="pavlosvitenko" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fallestlaww&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ef1494c2-4dce-405e-aaf4-e646c2b7ff96" />
+        <option name="url" value="https://github.com/OlhenShu/UA-1145_JavaFundamentals" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2cuwEjeY1vN9nLSgpJsH8zXgjIS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +62,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.First.executor": "Run",
+    "Application.Second.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pavlosvitenko",
@@ -49,6 +73,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Second">
+    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="First" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Second" />
+      <module name="hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Second" />
+        <item itemvalue="Application.First" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,11 +110,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708974663714</updated>
-      <workItem from="1708974664788" duration="82000" />
+      <workItem from="1708974664788" duration="289000" />
+      <workItem from="1708975123735" duration="103000" />
     </task>
+    <task id="LOCAL-00001" summary="homework 1">
+      <option name="closed" value="true" />
+      <created>1708974799956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708974799956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
   </component>
 </project>

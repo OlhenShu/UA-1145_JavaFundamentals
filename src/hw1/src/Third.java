@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Third {
-    public Third() {
-    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -10,14 +8,18 @@ public class Third {
         double c1 = scanner.nextDouble();
         System.out.println("Enter the duration of call from first country: ");
         int t1 = scanner.nextInt();
+
         System.out.println("Enter the cost per minute for the call from second country: ");
         double c2 = scanner.nextDouble();
         System.out.println("Enter the duration of call from second country: ");
         int t2 = scanner.nextInt();
+
         System.out.println("Enter the cost per minute for the call from third country: ");
         double c3 = scanner.nextDouble();
         System.out.println("Enter the duration of call from third country: ");
         int t3 = scanner.nextInt();
+
+        // дія над заданими данними
         double eachcost1 = c1 * (double)t1;
         System.out.println("Cost of the call from first country equals: " + eachcost1);
         double eachcost2 = c2 * (double)t2;
