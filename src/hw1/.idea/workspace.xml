@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c8c02a-187e-4908-9a2f-1d10580119cb" name="Changes" comment="" />
+    <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/UA-1145_JavaFundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/UA-1145_JavaFundamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../edu01/Zapovit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../edu01/Zapovit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hw1_svitenko/Third.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,61 +24,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2cggRLTsKQuGWi9WcRJruLegVeW" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2cuwEjeY1vN9nLSgpJsH8zXgjIS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.First.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Third.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JAVA/projects/hw1_svitenko/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "pavlosvitenko",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/JAVA/projects/UA-1145_JavaFundamentals/src/hw1/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Third">
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="First" />
-      <module name="hw1_svitenko" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Second" />
-      <module name="hw1_svitenko" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Third" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Third" />
-      <module name="hw1_svitenko" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Third" />
-        <item itemvalue="Application.First" />
-        <item itemvalue="Application.Second" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,15 +59,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7c8c02a-187e-4908-9a2f-1d10580119cb" name="Changes" comment="" />
-      <created>1708538628812</created>
+      <changelist id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="" />
+      <created>1708974663714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708538628812</updated>
-      <workItem from="1708538629956" duration="1353000" />
-      <workItem from="1708540636917" duration="4651000" />
-      <workItem from="1708955112778" duration="2351000" />
-      <workItem from="1708963910699" duration="623000" />
+      <updated>1708974663714</updated>
+      <workItem from="1708974664788" duration="82000" />
     </task>
     <servers />
   </component>
