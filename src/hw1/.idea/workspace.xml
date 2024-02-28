@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="homework 1">
+    <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="homework 1 fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.First.executor": "Run",
-    "Application.Second.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "pavlosvitenko",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/JAVA/projects/UA-1145_JavaFundamentals/src/hw1/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pavlosvitenko&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JAVA/projects/UA-1145_JavaFundamentals/src/hw1/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Second">
+}</component>
+  <component name="RunManager" selected="Application.First">
     <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="First" />
       <module name="hw1" />
@@ -90,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Second" />
         <item itemvalue="Application.First" />
+        <item itemvalue="Application.Second" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1708974663714</updated>
       <workItem from="1708974664788" duration="289000" />
-      <workItem from="1708975123735" duration="103000" />
+      <workItem from="1708975123735" duration="204000" />
+      <workItem from="1709135162833" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1">
       <option name="closed" value="true" />
@@ -121,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708974799956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework 1 fix">
+      <option name="closed" value="true" />
+      <created>1708975255910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708975255911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
+    <MESSAGE value="homework 1 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1 fix" />
   </component>
 </project>
