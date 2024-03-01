@@ -1,4 +1,4 @@
-package denys.serdiuk.homework;
+package denys.serdiuk.homework.week1;
 
 import java.util.Scanner;
 import java.lang.Math;
