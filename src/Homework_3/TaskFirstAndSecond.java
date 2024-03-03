@@ -1,6 +1,8 @@
+package Homework_3;
+
 import java.util.Scanner;
 
-public class Homework_3 {
+public class TaskOneAndTwo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +26,7 @@ public class Homework_3 {
         int smallestNumber = (calculateMin(firstNumber, secondNumber, thirdNumber));
         System.out.println("The smallest number is " + smallestNumber);
 
-        //Task 3 is in class Person
+        //Task 3 is in class Homework_3.Homework_3.Person
     }
 
     public static double calculateArea(double side1, double side2, double side3) {
