@@ -19,7 +19,7 @@ public class minimum {
     }
 
     public static int min(int c, int d, int e) {
-        //напишите тут ваш код
+        
         int m = 0;
         if (c <= d && c <= e)
             m = c;
