@@ -1,3 +1,5 @@
+package HW3.SmallestNumber;
+
 import java.util.Scanner;
 
 public class Main {
