@@ -20,14 +20,15 @@ public class Third {
         int t3 = scanner.nextInt();
 
         // дія над заданими данними
-        double eachcost1 = c1 * (double)t1;
+        double eachcost1 = c1 * (double) t1;//eachCost1 correct naming
         System.out.println("Cost of the call from first country equals: " + eachcost1);
         double eachcost2 = c2 * (double)t2;
         System.out.println("Cost of the call from second country equals: " + eachcost2);
         double eachcost3 = c3 * (double)t3;
         System.out.println("Cost of the call from third country equals: " + eachcost3);
-        double totalcost = eachcost1 + eachcost2 + eachcost3;
+        double totalcost = eachcost1 + eachcost2 + eachcost3;//totalCost correct naming
         System.out.println("Total cost equals: " + totalcost);
+
         scanner.close();
     }
 }

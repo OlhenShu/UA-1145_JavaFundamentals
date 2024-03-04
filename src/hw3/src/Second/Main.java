@@ -1,4 +1,4 @@
-package Second;
+package hw3.src.Second;
 
 import java.util.Scanner;
 
