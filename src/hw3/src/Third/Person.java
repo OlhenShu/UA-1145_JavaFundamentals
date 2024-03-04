@@ -1,9 +1,4 @@
 package Third;
-import com.sun.source.doctree.EscapeTree;
-
-import javax.sound.midi.Soundbank;
-import java.util.Scanner;
-
 import static Third.Main.SCANNER;
 public class Person {
     private String firstName;
@@ -11,7 +6,7 @@ public class Person {
     private int birthYear;
 
     public Person() {
-        this("N/A","N/A"); // передає логіку створення об'єкта класу Person в будь-якому конструкторі;
+        this("N/A","N/A"); // transfers the logic of creating an object of the Person class in any constructor;
     }
 
     public static void getAge(Person person) {

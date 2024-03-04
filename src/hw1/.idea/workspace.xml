@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f4875b3-28ce-4e8e-808d-0636b02f8997" name="Changes" comment="homework 1 fix">
+      <change afterPath="$PROJECT_DIR$/../hw3/src/First/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practical03/src/students/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Third.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/src/First/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/src/First/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/src/First/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/src/Second/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/src/Second/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/src/Second/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/src/Second/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/src/Third/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/src/Third/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +118,9 @@
       <updated>1708974663714</updated>
       <workItem from="1708974664788" duration="289000" />
       <workItem from="1708975123735" duration="204000" />
-      <workItem from="1709135162833" duration="62000" />
+      <workItem from="1709135162833" duration="301000" />
+      <workItem from="1709559343530" duration="23000" />
+      <workItem from="1709563493635" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1">
       <option name="closed" value="true" />
