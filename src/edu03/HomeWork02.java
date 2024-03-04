@@ -1,4 +1,6 @@
 package edu03;
+// Write Java console application with method
+// to find the smallest number among three integer numbers.
 
 import java.util.Scanner;
 

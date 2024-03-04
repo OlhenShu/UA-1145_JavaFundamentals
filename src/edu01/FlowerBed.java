@@ -33,7 +33,7 @@ public class FlowerBed {
         System.out.printf("Периметр клумби = %.2f", perimeter(flowerBedRadius));
         System.out.println("m");
         System.out.printf("Площа клумби = %.2f", area(flowerBedRadius));
-        System.out.println("m\u00b2");
+        System.out.println("m²");
 
         /*
         Звісно, все це можна було підрахувати одразу в параметрах метода print, використовуючи конкатенацію,
