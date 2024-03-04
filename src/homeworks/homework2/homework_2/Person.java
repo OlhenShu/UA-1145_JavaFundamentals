@@ -1,9 +1,9 @@
-package Homework_2;
+package homeworks.homework2.homework_2;
 
 import java.util.Scanner;
 
 public class Person {
-    private String firsName;
+    private String firsName;//typo: firstName
     private String lastName;
     private int birthYear;
 
@@ -37,7 +37,6 @@ public class Person {
                 "; Age " + getAge());
 
     }
-
     public void changeName() {
         Scanner scann = new Scanner(System.in);
         System.out.println("Input new first name: ");
@@ -46,11 +45,9 @@ public class Person {
         this.lastName = scann.nextLine();
 
     }
-
     public int getAge() {
         int currentYear = 2024;
         return currentYear - birthYear;
     }
-
 
 }

@@ -1,4 +1,4 @@
-package Practical;
+package homeworks.homework2.Practical;
 
 public class Practical_task2 {
     public static void main(String[] args) {

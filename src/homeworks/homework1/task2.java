@@ -1,4 +1,4 @@
-package homework1;
+package homeworks.homework1;
 
 import java.util.Scanner;
 
@@ -13,5 +13,6 @@ public class task2 {
         String address = scann.nextLine();
 
         System.out.println(name + ", live in " + address);
+        scann.close();// close the scanner
     }
 }

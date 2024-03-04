@@ -1,6 +1,4 @@
-package Homework_2;
-
-import java.util.Scanner;
+package homeworks.homework2.homework_2;
 
 public class Task3 {
     public static void main(String[] args) {
@@ -34,7 +32,8 @@ public class Task3 {
         person1.output();
         person1.changeName();
         person1.output();
-
+/*
+ you can prompt the user to enter information for each person (first name, last name, birth year) in a loop, but it will be after 5th topic */
 
     }
 }

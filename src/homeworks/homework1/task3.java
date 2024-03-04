@@ -1,4 +1,4 @@
-package homework1;
+package homeworks.homework1;
 
 import java.util.Scanner;
 
@@ -34,5 +34,6 @@ public class task3 {
         System.out.println("The cost of the second call: " + cost2);
         System.out.println("The cost of the third call: " + cost3);
         System.out.println("Total cost for three calls: " + total);
+        scann.close();
     }
 }
