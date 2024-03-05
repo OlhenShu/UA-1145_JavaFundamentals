@@ -1,4 +1,6 @@
-public class Task2 {
+package task2;
+
+public class task2 {
     static int min;
     static int[] arr = new int[] {125, 131, 117, 775, 6};
 
