@@ -6,7 +6,7 @@ public class  CalculateFlowerBed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner( System.in );
 
-        System.out.print ("Enter the radius of the circul flower bed: ");
+        System.out.print ("Enter the radius of the circle flower bed: ");
         double radius = scanner.nextDouble();
 
 
