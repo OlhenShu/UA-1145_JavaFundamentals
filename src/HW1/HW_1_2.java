@@ -2,7 +2,7 @@ package HW1;
 
 import java.util.Scanner;
 
-public class HW_1_2 {
+public class HW_1_2 {//class name should be UserDialogs
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

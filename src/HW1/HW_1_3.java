@@ -2,15 +2,15 @@ package HW1;
 
 import java.util.Scanner;
 
-public class HW_1_3 {
+public class HW_1_3 {//class name should be more descriptive - CallsCostCalculator
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Let`s count how much money you should pay for your calls!");
         System.out.println("How long was the first call?");
-        int t1 = scanner.nextInt();
+        int t1 = scanner.nextInt();//better name for variable is time1
         System.out.println("How much was it per minute?");
-        double c1 = scanner.nextDouble();
+        double c1 = scanner.nextDouble();//the same here - cost1
 
         System.out.println("How long was the second call?");
         int t2 = scanner.nextInt();
