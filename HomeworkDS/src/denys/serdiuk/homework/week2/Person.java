@@ -40,7 +40,7 @@ public class Person {
 		System.out.println("Birth year: ");
 		setBirthYear(scanner.nextInt());
 
-		scanner.close();
+		scanner.close();//don't close scanner here
 	}
 
 	public String output() {

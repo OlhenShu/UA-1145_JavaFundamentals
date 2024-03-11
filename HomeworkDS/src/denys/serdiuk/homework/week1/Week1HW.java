@@ -1,7 +1,6 @@
 package denys.serdiuk.homework.week1;
 
 import java.util.Scanner;
-import java.lang.Math;
 //test
 public class Week1HW  {
 	static Scanner scanner = new Scanner(System.in);
@@ -32,7 +31,9 @@ public class Week1HW  {
 		int sum = a + b;
 		int difference = a - b;
 		int product = a * b;
-		double fraction = Math.round(a / b);
+		double fraction = Math.round(a / b); //use double instead of int to get the correct result
+		//exception if b = 0 - you should handle this case
+
 
 		return "a + b = " + sum + "\na - b = " + difference + "\na * b = " + product + "\na / b = " + fraction;
 	}
@@ -68,9 +69,9 @@ public class Week1HW  {
 	public static String phoneCalls() {
 
 		System.out.println("Please input cost per minute on call 1: ");
-		double c1 = scanner.nextDouble();
+		double c1 = scanner.nextDouble();//the name of the variable should be more descriptive than c1 - costPerMinuteCall1
 		System.out.println("And the duration of call 1 in minutes: ");
-		int t1 = scanner.nextInt();
+		int t1 = scanner.nextInt();//the name of the variable should be more descriptive than t1 - durationCall1
 
 		System.out.println("Please input cost per minute on call 2: ");
 		double c2 = scanner.nextDouble();
@@ -82,7 +83,8 @@ public class Week1HW  {
 		System.out.println("And the duration of call 3 in minutes: ");
 		int t3 = scanner.nextInt();
 
-		scanner.close();
+		scanner.close();//if I close the scanner here, it will not work in the next method
+		//and for static Scanner scanner = new Scanner(System.in); you don't need to close it
 
 		return "The cost of call 1 is " + (c1 * t1) + "\nThe cost of call 2 is: " + (c2 * t2)
 				+ "\nThe cost of call 3 is: " + (c3 * t3);
