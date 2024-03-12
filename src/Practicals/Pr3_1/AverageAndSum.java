@@ -1,8 +1,8 @@
-package Practicals;
+package Practicals.Pr3_1;
 
 import java.util.Scanner;
 
-public class Pr_3_1 {
+public class AverageAndSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Type the first number");
