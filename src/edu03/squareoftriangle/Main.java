@@ -1,4 +1,4 @@
-package HW3.SquareOfTriangle;
+package edu03.squareoftriangle;
 
 import java.util.Scanner;
 

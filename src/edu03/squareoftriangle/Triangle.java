@@ -1,4 +1,4 @@
-package HW3.SquareOfTriangle;//package name should be in lower case
+package edu03.squareoftriangle;//package name should be in lower case
 
 public class Triangle {//better naming would be TriangleCalculator
     double firstSide;

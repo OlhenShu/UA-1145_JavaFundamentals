@@ -1,4 +1,4 @@
-package HW4;
+package edu04;
 
 import java.util.HashMap;
 import java.util.Scanner;

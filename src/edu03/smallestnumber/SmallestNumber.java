@@ -1,4 +1,4 @@
-package HW3.SmallestNumber;
+package edu03.smallestnumber;
 
 public class SmallestNumber {
     int firstNumber;

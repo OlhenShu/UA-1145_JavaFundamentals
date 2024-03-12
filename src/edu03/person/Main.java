@@ -1,6 +1,4 @@
-package HW3.Person;
-
-import java.util.Calendar;
+package edu03.person;
 
 public class Main {
     public static void main(String[] args) {

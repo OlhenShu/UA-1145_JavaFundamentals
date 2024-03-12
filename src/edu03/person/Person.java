@@ -1,4 +1,4 @@
-package HW3.Person;
+package edu03.person;
 
 import java.util.Calendar;
 import java.util.Scanner;
