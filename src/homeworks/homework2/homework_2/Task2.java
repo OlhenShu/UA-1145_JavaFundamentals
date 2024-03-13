@@ -1,4 +1,4 @@
-package homeworks.homework2.homework_2;
+package homework2.homework_2;
 
 import java.util.Scanner;
 
@@ -27,13 +27,13 @@ public class Task2 {
     In Java, method names typically start with a lowercase letter.
     Consider renaming Smallest() to printSmallest() or something similar.
     */
-    public void Smallest() {
+    public void printSmallest() {
         int smallest = smallestNumber();
         System.out.println("The smallest number is: " + smallest);
     }
     public static void main(String[] args) {
         Task2 task = new Task2();
-        task.Smallest();}
+        task.printSmallest();}
 
 }
 /*

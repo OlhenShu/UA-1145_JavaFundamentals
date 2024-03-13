@@ -1,4 +1,4 @@
-package homeworks.homework2.Example;
+package homework2.Example;
 
 public class Student {
     static private int totalRating;
