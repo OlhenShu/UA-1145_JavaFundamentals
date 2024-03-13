@@ -1,4 +1,4 @@
-package denys.serdiuk.homework3;
+package denys.serdiuk.homework3IfStatements;
 
 public enum HTTPErrors {
 	ERROR_400(400, "Bad Request"),

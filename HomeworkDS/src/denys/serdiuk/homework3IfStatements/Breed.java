@@ -1,4 +1,4 @@
-package denys.serdiuk.homework3;
+package denys.serdiuk.homework3IfStatements;
 
 public enum Breed {
 	BULLDOG("French Bulldog"),
