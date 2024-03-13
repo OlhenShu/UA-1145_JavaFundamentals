@@ -1,4 +1,4 @@
-package HW3;
+package HomeWorks.HW3;
 
 import java.time.Year;
 import java.util.Scanner;
