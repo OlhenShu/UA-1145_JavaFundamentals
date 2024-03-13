@@ -5,29 +5,29 @@ import java.util.Scanner;
 public class CostOfCalls {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введіть тривалість 1 дзвінка: ");//be careful with the language, it's better to use English
+        System.out.println("Enter the duration of 1 call: ");
         int time1 = scanner.nextInt();
-        System.out.println("Введіть ціну за хвилину 1 дзвінка ");
+        System.out.println("Enter the price per minute of 1 call");
         int cost1 = scanner.nextInt();
 
-        System.out.println("Тривалість 2 дзвінка: ");
+        System.out.println("Enter the duration of 2 call: ");
         int time2 = scanner.nextInt();
-        System.out.println("Введіть ціну за хвилину 1 дзвінка ");
+        System.out.println("Enter the price per minute of 2 call");
         int cost2 = scanner.nextInt();
 
-        System.out.println("Тривалість 3 дзвінка: ");
+        System.out.println("Enter the duration of 3 call: ");
         int time3 = scanner.nextInt();
-        System.out.println("Введіть ціну за хвилину 1 дзвінка ");
+        System.out.println("Enter the price per minute of 3 call");
         int cost3 = scanner.nextInt();
 
         int sum1 = time1 * cost1;
         int sum2 = time2 * cost2;
         int sum3 = time3 * cost3;
-        int totalsum = sum1 + sum2 + sum3;//it's better to use camelCase for the variable name (totalSum)
+        int totalSum = sum1 + sum2 + sum3;
 
-        System.out.println("Вартість 1 дзвінка: " + sum1);
-        System.out.println("Вартість 2 дзвінка: " + sum2);
-        System.out.println("Вартість 3 дзвінка: " + sum3);
-        System.out.println("Загальна вартість: " + totalsum);
+        System.out.println("Cost of 1 call: " + sum1);
+        System.out.println("Cost of 2 call: " + sum2);
+        System.out.println("Cost of 3 call: " + sum3);
+        System.out.println("Загальна вартість: " + totalSum);
     }
 }
