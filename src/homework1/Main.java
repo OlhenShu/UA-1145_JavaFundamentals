@@ -19,6 +19,7 @@ public class Main {
 
         System.out.println("Площа дорівнює: "+area+ "\nПериметр дорівнює: "+perimeter);
     }
+    //task2
     public static void userInformation(){
         System.out.println("Введіть своє ім'я: ");
         String name = scan.next();
@@ -26,6 +27,7 @@ public class Main {
         String adress = scan.next();
         System.out.println("Ваше ім'я: "+name+"\nВаш адрес: "+adress);
     }
+    //task3
     public static void callInformation(){
         System.out.println("Введіть вартість першого дзвінку: ");
         double c1 = scan.nextDouble();
