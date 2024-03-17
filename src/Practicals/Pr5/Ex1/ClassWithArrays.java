@@ -25,7 +25,7 @@ public class ClassWithArrays {
     }
 
     public static boolean checkTheNumbInArray(int[] arr, int numb) {
-        int[] numbArr = arr;       //Чи треба тут створювати новий масив, якщо я не хочу, щоб вихідний масив сортувався?
+        int[] numbArr = Arrays.copyOf(arr, arr.length);
         Arrays.sort(numbArr);
         int index = Arrays.binarySearch(numbArr, numb);
 
