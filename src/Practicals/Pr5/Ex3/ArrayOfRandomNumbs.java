@@ -12,7 +12,7 @@ public class ArrayOfRandomNumbs {
         long totalPosSum = 0;
 
         for (int i = 0; i < 10; i++) {
-            arrayOfRandomNumbers[i] = randomNumb.nextInt();
+            arrayOfRandomNumbers[i] = randomNumb.nextInt(200)-100;
 
             if (arrayOfRandomNumbers[i] > 0) {
                 countPositiveNumb++;
