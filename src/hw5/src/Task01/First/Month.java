@@ -3,14 +3,8 @@ package Task01.First;
 import static Task01.First.Main.SCANNER;
 
 public class Month {
-    public static int monthNumber;
-    public static int year;
-
-    public static int inputYear() {
-        System.out.println("Enter the year: ");
-        year = SCANNER.nextInt();
-        return year;
-    }
+    private static int monthNumber;
+    private static int year;
 
     public static int monthNumberInput() {
         System.out.println("Enter the number of month: ");
@@ -42,4 +36,21 @@ public class Month {
             System.out.println("In " + monthNumber + " month are " + dayAmount + " days");
         }
     }
+
+    public static int getMonthNumber() {
+        return monthNumber;
+    }
+
+    public static void setMonthNumber(int monthNumber) {
+        Month.monthNumber = monthNumber;
+    }
+
+    public static int getYear() {
+        return year;
+    }
+
+    public static void setYear(int year) {
+        Month.year = year;
+    }
+
 }
