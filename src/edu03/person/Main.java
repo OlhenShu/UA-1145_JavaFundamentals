@@ -12,8 +12,8 @@ public class Main {
         Person p5 = new Person("Charlie", "Brown", 2000);
 
         //Тут трохи намудрив, взявши regex в методі inputInfo(input), може вийти незграбно
-        System.out.println("You should put info in line, with spaces or comas, and in that" +
-                " direction: firstname lastname birthYear");
+        System.out.print("You should put info in line, with spaces or commas, and in this" +
+                " format: firstname lastname birthYear.");
 
         System.out.println("Input information for person 1:");
         String line1 = sc.nextLine();
