@@ -1,8 +1,10 @@
 
 package Hometask_1;
 import java.util.Scanner;
+import static Practical.Practical_1.practical_1_Task_1;
+import static Practical.Practical_1.practical_1_Task_2;
 
-public class main {
+public class Main {
     // Task 1: Perimeter and area of the flower bed
     public static void task_1() {
         Scanner scanner = new Scanner(System.in);
@@ -51,5 +53,7 @@ public class main {
         task_1();
         task_2();
         task_3();
+//        practical_1_Task_1();
+//        practical_1_Task_2();
     }
 }
