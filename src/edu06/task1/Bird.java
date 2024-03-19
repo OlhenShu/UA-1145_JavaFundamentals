@@ -22,7 +22,7 @@ abstract class Bird {
 
 
 //Task 1
-//Create abstract class called Bird  by scheme with attributes feathers and layEggs and an abstaract fly() method.
+//Create abstract class called Bird  by scheme with attributes feathers and layEggs and an abstract fly() method.
 //Create classes FlyingBird and NonFlyingBird.
 //Create classes Eagle, Swallow, Penguin and Kiwi.
 //        In main() method create an array Bird and add different birds to it. Call fly() method for all of it.
