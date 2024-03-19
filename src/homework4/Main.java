@@ -15,6 +15,24 @@ public class Main {
         System.out.println("З ваших данних у вас помилка: "+userError.errorsType);
         System.out.println("Task4");
         Faculty.Season.infoAboutStudentsAndSemester();
+        System.out.println("Task5");
+        Dog dog1 = new Dog("Bogdan", "Rottweiler", 4);
+        Dog dog2 = new Dog("Speed", "Shepherd", 3);
+        Dog dog3 = new Dog("Bars", "Poodle", 5);
+        Dog oldest = dog1;
+        if (dog2.getAge() > oldest.getAge()) {
+            oldest = dog2;
+        }
+        if (dog3.getAge() > oldest.getAge()) {
+            oldest = dog3;
+        }
+        System.out.println("The oldest dog is: " + oldest.getName() + ", " + oldest.getBreed());
+
+        if (dog1.getName().equals(dog2.getName()) && dog1.getName().equals(dog3.getName()) && dog2.getName().equals(dog3.getName())) {
+            System.out.println("There are two dogs with the same name.");
+        } else {
+            System.out.println("There are no two dogs with the same name.");
+        }
     }
 
     //task1
@@ -85,7 +103,5 @@ public class Main {
             };
         }
     }
-    //task4
-
 }
 
