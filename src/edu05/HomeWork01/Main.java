@@ -30,15 +30,16 @@ class Main {
 
         // 10 integers numbers and calculates the sum of the first five elements if they are
         //positive, or the product of the last five elements if they are not and output the result.
-        TenIntegers.tenIntegers = new int[10];
+        //TenIntegers.tenIntegers = new int[10];
         System.out.println("Тепер введіть 10 int-ових значень до масиву: ");
 
-        for (int i = 0; i < 10; i++) {
-            TenIntegers.tenIntegers[i] = scan.nextInt();
+        int[] userInput = new int[10];
+        for (int i = 0; i < userInput.length; i++) {
+            userInput[i] = scan.nextInt();
         }
 
-        System.out.println("Подивимось, що ви нам тут навводили" + Arrays.toString(TenIntegers.tenIntegers));
-        System.out.println(TenIntegers.sumCalc(TenIntegers.tenIntegers));
+        System.out.println("Подивимось, що ви нам тут навводили" + Arrays.toString(userInput));
+        System.out.println(TenIntegers.sumCalc(userInput));
 
         //5 integer numbers and find:
         //- position of second positive number;
