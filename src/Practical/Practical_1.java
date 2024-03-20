@@ -29,9 +29,9 @@ public class Practical_1 {
 
     public static void practical_1_Task_3() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the value for 'a'");
+        System.out.println("Please enter any number for 'a'");
         int a = scanner.nextInt();
-        System.out.println("Please enter the value for 'b'");
+        System.out.println("Please enter any number for 'b'");
         int b = scanner.nextInt();
         System.out.println(a + b);
         System.out.println(a - b);

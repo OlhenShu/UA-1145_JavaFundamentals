@@ -1,9 +1,7 @@
-
-package Hometask_1;
+package Hometask;
 import java.util.Scanner;
-import static Practical.Practical_1.*;
 
-public class Main {
+public class Hometask_1 {
     // Task 1: Perimeter and area of the flower bed
     public static void task_1() {
         Scanner scanner = new Scanner(System.in);
@@ -47,14 +45,5 @@ public class Main {
         System.out.println("You spent " + t3 * c3 + " dollars for the third call");
         double total = (t1 * c1) + (t2 * c2) + (t3 * c3);
         System.out.println("Totally you spent " + total + " dollars for the first call");
-    }
-    public static void main(String[] args) {
-        task_1();
-        task_2();
-        task_3();
-        practical_1_Task_1();
-        practical_1_Task_2();
-        practical_1_Task_3();
-        practical_1_Task_4();
     }
 }
