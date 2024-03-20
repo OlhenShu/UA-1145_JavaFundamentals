@@ -39,7 +39,6 @@ abstract class Employee {
 
 
     public Employee(String employeeId) {
-        this.name = name;
         this.employeeId = employeeId;
     }
 
@@ -56,8 +55,8 @@ abstract class Employee {
 }
 
 class SalariedEmployee extends Employee implements Payment {
-    private String name;
-    private double fixedSalary;
+    private final String name;
+    private final double fixedSalary;
     private String socialSecurityNumber;
 
     public SalariedEmployee(String name, String employeeId, double fixedSalary, String socialSecurityNumber) {
@@ -87,9 +86,9 @@ class SalariedEmployee extends Employee implements Payment {
 }
 
 class ContractEmployee extends Employee implements Payment {
-    private String name;
-    private double hourlyRate; // Remove 'final' modifier
-    private int hoursWorked;   // Remove 'final' modifier
+    private final String name;
+    private final double hourlyRate;
+    private final int hoursWorked;
     private String federalTaxId;
 
     public ContractEmployee(String name, String employeeId, double hourlyRate, int hoursWorked, String federalTaxId) {
