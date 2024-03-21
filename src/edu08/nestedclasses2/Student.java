@@ -1,4 +1,4 @@
-package edu08.nestedclasses;
+package edu08.nestedclasses2;
 
 public class Student extends Person implements Cloneable {
     private int course;

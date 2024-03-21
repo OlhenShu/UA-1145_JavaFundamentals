@@ -1,4 +1,4 @@
-package edu08.nestedclasses;
+package edu08.nestedclasses2;
 
 abstract class Person {
     FullName fullName;

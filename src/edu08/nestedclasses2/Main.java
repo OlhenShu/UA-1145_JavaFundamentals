@@ -1,4 +1,4 @@
-package edu08.nestedclasses;
+package edu08.nestedclasses2;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
