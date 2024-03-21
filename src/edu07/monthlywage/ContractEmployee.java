@@ -1,7 +1,7 @@
 package edu07.monthlywage;
 
 public class ContractEmployee extends Employee implements Payment {
-    final float COMPANSATION = 1000.56F;
+    final float COMPANSATION_RATE = 1000.56F;
     private String federalTaxIdMember;
 
     public ContractEmployee(String employeeld, String federalTaxIdMember) {
@@ -23,6 +23,6 @@ public class ContractEmployee extends Employee implements Payment {
 
     @Override
     public void calculatePay() {
-        System.out.print("Compensation: " + this.COMPANSATION);
+        System.out.print("Compensation: " + this.COMPANSATION_RATE);
     }
 }
