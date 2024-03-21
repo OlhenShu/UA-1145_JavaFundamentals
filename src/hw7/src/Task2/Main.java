@@ -14,6 +14,9 @@ public class Main {
         for(int i = 0; i < passengers.length; i++) {
             if(passengers[i] instanceof Liner liner) {
                 liner.isSailing();
+                System.out.println("Number of passengers: " + liner.getPassengers());
+                liner.setPassengers(3000);
+                System.out.println("New number of passengers: " + liner.getPassengers());
                 System.out.println("The number of liner`s floats is: " + liner.getFloors());
                 liner.setFloors(4);
                 System.out.println("New number of liner`s floats is: " + liner.getFloors());
@@ -21,6 +24,9 @@ public class Main {
             }
             if(passengers[i] instanceof Boat boat) {
                 boat.isSailing();
+                System.out.println("Number of passengers: " + boat.getPassengers());
+                boat.setPassengers(30);
+                System.out.println("New number of passengers: " + boat.getPassengers());
                 System.out.println("The number of boat`s volume is: " + boat.getVolume());
                 boat.setVolume(6);
                 System.out.println("New number of boat`s volume is: " + boat.getVolume());
@@ -29,6 +35,9 @@ public class Main {
             if(passengers[i] instanceof Plane plane) {
                 plane.fly();
                 plane.land();
+                System.out.println("Number of passengers: " + plane.getPassengers());
+                plane.setPassengers(70);
+                System.out.println("New number of passengers: " + plane.getPassengers());
                 System.out.println("Plane`s max distance is: " + plane.getMaxDistance());
                 plane.setMaxDistance(10000);
                 System.out.println("New plane`s max distance is: " + plane.getMaxDistance());
@@ -41,6 +50,9 @@ public class Main {
             }
             if(passengers[i] instanceof Bus bus) {
                 bus.drive();
+                System.out.println("Number of passengers: " + bus.getPassengers());
+                bus.setPassengers(50);
+                System.out.println("New number of passengers: " + bus.getPassengers());
                 System.out.println("Bus route is: " + bus.getRoute());
                 bus.setRoute("Lviv -> Kyiv");
                 System.out.println("New bus route is: " + bus.getRoute());
@@ -48,6 +60,9 @@ public class Main {
             }
             if(passengers[i] instanceof Motorcycle motorcycle) {
                 motorcycle.drive();
+                System.out.println("Number of passengers: " + motorcycle.getPassengers());
+                motorcycle.setPassengers(3);
+                System.out.println("New number of passengers: " + motorcycle.getPassengers());
                 System.out.println("Motorcycle`s max speed is: " + motorcycle.getMaxSpeed());
                 motorcycle.setMaxSpeed(400);
                 System.out.println("New motorcycle`s max speed is: " + motorcycle.getMaxSpeed());
@@ -55,6 +70,9 @@ public class Main {
             }
             if(passengers[i] instanceof Car car) {
                 car.drive();
+                System.out.println("Number of passengers: " + car.getPassengers());
+                car.setPassengers(6);
+                System.out.println("New number of passengers: " + car.getPassengers());
                 System.out.println("Car`s model is: " + car.getModel());
                 car.setModel("Mercedes C-Class");
                 System.out.println("New car`s model is: " + car.getModel());
