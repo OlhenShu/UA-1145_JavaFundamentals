@@ -1,17 +1,27 @@
 package edu07.monthlywage;
 
 abstract class Employee {
-    private String employeeld;
+    private String employeeid;
+    private String name;
 
-    public Employee(String employeeld) {
-        this.employeeld = employeeld;
+    public Employee(String employeeid, String name) {
+        this.employeeid = employeeid;
+        this.name = name;
     }
 
-    public String getEmployeeld() {
-        return employeeld;
+    public String getEmployeeId() {
+        return employeeid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setEmployeeld(String employeeld) {
-        this.employeeld = employeeld;
+        this.employeeid = employeeld;
     }
 }

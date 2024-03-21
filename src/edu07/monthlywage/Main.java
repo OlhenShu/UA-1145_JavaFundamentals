@@ -2,14 +2,22 @@ package edu07.monthlywage;
 
 public class Main {
     public static void main(String[] args) {
-        ContractEmployee cEmp = new ContractEmployee("Yes", "Contract Employee");
-        SalariedEmployee sEmp = new SalariedEmployee("Yes", "123", 120);
+        Employee[] empls = {
+                new ContractEmployee("123-767", "Josephina", "1234-675"),
+                new SalariedEmployee("3478632-34578654", "Vasilii", "1234", 124),
+                new SalariedEmployee("1234", "Djigan", "1234567", 72)};
 
-        System.out.println("Contract Employee: \n" + "Employee ID: " + cEmp.getEmployeeld() + "\nID: " + cEmp.getFederalTaxIdMember() + "\n");
-        cEmp.calculatePay();
-        System.out.println("\n-----------------------------------------------------");
-        System.out.println("Salaried Employee: \n" + "Employee ID: " + sEmp.getEmployeeld() + "\nSocial number: " + sEmp.getSocialSecurityNumber() + "\nHours: " + sEmp.getWorkHours() + "\n");
-        sEmp.calculatePay();
-        System.out.println("\n-----------------------------------------------------");
+        for (Employee object : empls) {
+            if (object instanceof ContractEmployee) {
+                System.out.print("Employee name: " + object.getName() + "\nEmployee ID: " + object.getEmployeeId() + "\nFederal number: " + ((ContractEmployee) object).getFederalTaxIdMember() + "\nAverage monthly wage: ");
+                ((ContractEmployee) object).calculatePay();
+            } else {
+                System.out.print("Employee name: " + object.getName() + "\nEmployee ID: " + object.getEmployeeId() + "\nSocial number: " + ((SalariedEmployee) object).getSocialSecurityNumber() + "\nAverage monthly wage: ");
+                ((SalariedEmployee) object).calculatePay();
+            }
+            System.out.println("\n-------------------------------------------------------");
+        }
+
+
     }
 }

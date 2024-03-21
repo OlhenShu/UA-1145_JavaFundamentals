@@ -6,8 +6,8 @@ public class SalariedEmployee extends Employee implements Payment {
     private String socialSecurityNumber;
     private int workHours;
 
-    public SalariedEmployee(String employeeld, String socialSecurityNumber, int workHours) {
-        super(employeeld);
+    public SalariedEmployee(String employeeld, String name, String socialSecurityNumber, int workHours) {
+        super(employeeld, name);
         this.socialSecurityNumber = socialSecurityNumber;
         this.workHours = workHours;
     }
@@ -34,6 +34,6 @@ public class SalariedEmployee extends Employee implements Payment {
 
     @Override
     public void calculatePay() {
-       System.out.print("Compensation: " + this.getWorkHours() * this.RATE_PER_HOUR);
+        System.out.print(this.getWorkHours() * this.RATE_PER_HOUR);
     }
 }
