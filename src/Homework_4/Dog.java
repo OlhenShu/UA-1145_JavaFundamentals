@@ -2,6 +2,7 @@ package Homework_4;
 
 // Task 5
 
+
 public class Dog {
     private String name;
     private Breed breed;
@@ -13,29 +14,6 @@ public class Dog {
         this.age = age;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Breed getBreed() {
-        return breed;
-    }
-
-    public void setBreed(Breed breed) {
-        this.breed = breed;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -52,6 +30,8 @@ public class Dog {
         return name.hashCode();
     }
 
+
+
     public static void theOldest (Dog dog1, Dog dog2, Dog dog3) {
         int oldest = dog1.age;
         Dog oldestDog = dog1;
@@ -64,7 +44,7 @@ public class Dog {
             oldestDog = dog3;
         }
 
-        System.out.println("The oldest dog is " + oldestDog.getName() + ", breed " + oldestDog.getBreed());
+        System.out.println("The oldest dog is " + oldestDog.name + ", breed " + oldestDog.breed);
     }
 
 
@@ -75,11 +55,11 @@ public class Dog {
         Dog dog3 = new Dog("Funny", Breed.POODLE, 3);
 
         if (dog1.equals(dog2)) {
-            System.out.println(dog1.getBreed() + " and " + dog2.getBreed() + " have same names");
+            System.out.println(dog1.breed.toString() + " and " + dog2.breed.toString() + " have same names");
         } else if ((dog3.equals(dog2))) {
-            System.out.println(dog3.getBreed() + " and " + dog2.getBreed() + " have same names");
+            System.out.println(dog3.breed.toString() + " and " + dog2.breed.toString() + " have same names");
         } else if ((dog3.equals(dog1))) {
-            System.out.println(dog3.getBreed() + " and " + dog1.getBreed() + " have same names");
+            System.out.println(dog3.breed.toString() + " and " + dog1.breed.toString() + " have same names");
         } else {
             System.out.println("All dogs have different names");
         }
@@ -90,4 +70,10 @@ public class Dog {
 
 enum Breed {
     BULLDOG, POODLE, BOXER, ROTTWEILER, BEAGLE, HUSKY;
+
+    @Override
+    public String toString() {
+        String name = name();
+        return name.charAt(0) + name.substring(1).toLowerCase();
+    }
 }
