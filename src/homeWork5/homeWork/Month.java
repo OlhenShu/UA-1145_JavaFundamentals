@@ -39,12 +39,10 @@ public class Month {
     // added this one for Tests!!!!
     int  getNumberOFDays() {
         int numberOfDays = 0;
-        boolean found = false;
         int monthNumber = 5;
         for (int[] monthDay : monthDays) {
             if (monthDay[0] == monthNumber) {
                 numberOfDays = monthDay[1];
-                found = true;
                 break;
             }
         }
