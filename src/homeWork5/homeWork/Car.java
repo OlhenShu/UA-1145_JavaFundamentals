@@ -3,9 +3,9 @@ package homeWork5.homeWork;
 import java.util.Scanner;
 
 public class Car {
-    private String type;
-    private int yearOfProduction;
-    private int engineCapacity;
+    private final String type;
+    private final int yearOfProduction;
+    private final int engineCapacity;
 
     public Car(String type, int yearOfProduction, int engineCapacity) {
         this.type = type;

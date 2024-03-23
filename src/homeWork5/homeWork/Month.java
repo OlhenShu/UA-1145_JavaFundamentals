@@ -36,6 +36,21 @@ public class Month {
             System.out.println("Invalid month number. Please enter a number between 1 and 12.");
         }
     }
+    // added this one for Tests!!!!
+    int  getNumberOFDays() {
+        int numberOfDays = 0;
+        boolean found = false;
+        int monthNumber = 5;
+        for (int[] monthDay : monthDays) {
+            if (monthDay[0] == monthNumber) {
+                numberOfDays = monthDay[1];
+                found = true;
+                break;
+            }
+        }
+        return numberOfDays;
+    }
+
 }
 
 class RunMonth {
