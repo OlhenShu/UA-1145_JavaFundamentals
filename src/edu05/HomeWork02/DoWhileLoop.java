@@ -31,3 +31,5 @@ public class DoWhileLoop {
         return sum;
     }
 }
+//Add input validation to ensure the user inputs integers.
+// If a non-integer is entered, the program prompts the user again for a numerical input.

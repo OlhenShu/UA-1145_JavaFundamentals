@@ -25,5 +25,6 @@ public class MinMax {
 
         max = Math.max(Math.max(num1, num2), num3);
         System.out.println("Maximal value = " + max);
+        scan.close(); // It's a good practice to close the Scanner object
     }
 }

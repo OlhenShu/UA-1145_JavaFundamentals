@@ -16,6 +16,12 @@ public class FiveIntegers {
         return -1; // Якщо < 2 позитивних чисел, то повертається -1.
     }
 
+    /*
+    The method minimumValue prints the minimum value and its position directly,
+    which differs in behavior from the other methods that return values.
+    For consistency, consider renaming it to reflect its side-effect (e.g., printMinimumValueAndPosition)
+    or adjust it to return a value or a result object instead of printing directly.
+     */
     public static void minimumValue(int[] fiveIntegers) {
         int min = fiveIntegers[0];
         int imin = 0;

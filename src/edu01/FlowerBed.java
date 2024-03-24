@@ -15,7 +15,7 @@ public class FlowerBed {
 
     // Опис метода для обчислення площі. S=PI*r*r
     public static double area(double flowerBedRadius) {
-        return Math.PI * flowerBedRadius * flowerBedRadius;
+        return Math.PI * flowerBedRadius * flowerBedRadius;//Math.PI * Math.pow(flowerBedRadius, 2);
     }
 
     public static void main(String[] args) {
@@ -44,5 +44,8 @@ public class FlowerBed {
 
         //Але мені здається, що primary рішення виглядає більш елегантним.
         scanner.close();
+        // Indeed, using methods would make the solution more elegant.
+        // However, for our initial lesson, we weren't aware of them, so it was everything in the main method.
+        //Better to write comments for users in Eng
     }
 }

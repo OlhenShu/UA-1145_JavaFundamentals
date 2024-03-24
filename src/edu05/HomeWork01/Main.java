@@ -22,6 +22,7 @@ class Main {
                 System.out.println("З 1 до 12 треба вводити, а не усе це, що було. Спробуй ще раз: ");
         }
         //Тут світч-кейс на "день/днів" в залежності від кількості днів у місяці.
+        //Для такого випадку свіч використовувати некоректно, або іф або тернарний виглядали б більш доречно
         dayWord = switch (MonthDays.daysInMonth[monthSelected - 1]) {
             case (31) -> "день";
             default -> "днів";
@@ -56,7 +57,7 @@ class Main {
         if (FiveIntegers.calculateEvenProduct(FiveIntegers.fiveIntegers) != 1) {
             System.out.println("Добуток усіх введених парних чисел: " + FiveIntegers.calculateEvenProduct(FiveIntegers.fiveIntegers));
         } else {
-            System.out.println("Парни числа не знайдені");
+            System.out.println("Парні числа не знайдені");
         }
     }
 

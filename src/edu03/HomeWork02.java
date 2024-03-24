@@ -18,7 +18,7 @@ public class HomeWork02 {
         System.out.println("Smallest number is: " + smallest(num1, num2, num3));
     }
 
-    static int smallest(int a, int b, int c) {
+    static int smallest(int a, int b, int c) {//findSmallest better naming
         return Math.min(Math.min(a, b), c);
     }
 }
