@@ -5,7 +5,7 @@ public class Scanner_name {
         public static void main(String[] args) {
             System.out.println("You need to write your full name and age");
             int age;
-            String surname,name;
+            String surname, name;// separate variables
             Scanner sc = new Scanner(System.in);
             System.out.print("Surname: ");
             surname = sc.nextLine();

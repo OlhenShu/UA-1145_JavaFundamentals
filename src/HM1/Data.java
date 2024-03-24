@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Data {
     public static void main(String[] args) {
-        String name , adress;
+        String name, adress;//address; separate variables
         Scanner sc = new Scanner(System.in);
         System.out.println("What is your name?");
         name = sc.nextLine();
