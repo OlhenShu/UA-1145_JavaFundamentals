@@ -2,7 +2,7 @@ package HomeWorks.HW1;
 
 import java.util.Scanner;
 
-public class HW_1_1 {// Class name should be changed to CircleCalculation
+public class CircleCalculation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" What is a radius of flower bed in cm?");
