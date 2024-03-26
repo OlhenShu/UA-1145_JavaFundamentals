@@ -1,4 +1,4 @@
-package Practicals;
+package Practicals.Pr3.Pr3_2;
 
 public class Employee2 {
     public static void main(String[] args) {
