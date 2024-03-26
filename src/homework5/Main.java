@@ -9,16 +9,16 @@ public class Main {
 
     public static void main(String[] args) {
         inputTheNumberOfTheMonth();
-//        sumOfTwoUserNumbers();
-//        Car[] cars = {
-//                new Car("Lamborgini", 2001, 4),
-//                new Car("Subaru", 2003, 7),
-//                new Car("Sedan", 2002, 9),
-//                new Car("Mitcubishi", 2004, 2),
-//        };
-//        outputTheCarWithYear(cars);
-//        int[] arr=generateRandomNumbers(3);
-//        guessTheNumber(arr);
+        sumOfTwoUserNumbers();
+        Car[] cars = {
+                new Car("Lamborgini", 2001, 4),
+                new Car("Subaru", 2003, 7),
+                new Car("Sedan", 2002, 9),
+                new Car("Mitcubishi", 2004, 2),
+        };
+        outputTheCarWithYear(cars);
+        int[] arr=generateRandomNumbers(3);
+        guessTheNumber(arr);
     }
 
     //task1
