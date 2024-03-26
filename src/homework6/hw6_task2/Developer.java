@@ -10,7 +10,7 @@ public class Developer extends Employee{
     @Override
     public String report(){
         return ("Ім'я: " + getName() + ", Вік: "
-                + getAge() + " років."+ " Зарплата: " + getSalary()+ " Улюблена фраза: "
+                + getAge() + " років."+ " Зарплата: $" + getSalary()+ " Улюблена фраза: "
                 + phrase);
     }
 }
