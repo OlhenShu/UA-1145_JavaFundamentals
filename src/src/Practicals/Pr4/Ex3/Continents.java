@@ -1,7 +1,5 @@
 package Practicals.Pr4.Ex3;
 
-import java.util.Locale;
-
 public enum Continents {
     ASIA,
     AFRICA,
