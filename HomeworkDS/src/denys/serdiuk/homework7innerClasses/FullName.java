@@ -1,4 +1,4 @@
-package denys.serdiuk.homework7innerClasses.task1;
+package denys.serdiuk.homework7innerClasses;
 
 public class FullName {
 	private String firstName;
