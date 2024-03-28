@@ -1,7 +1,12 @@
-package Practical;
+package Practical1;
 import java.util.Scanner;
 
-public class Practical_1 {
+/*
+    Please be informed that all these tasks are executed in Main package Hometask1,
+    as this Practical tasks are part of Homework 1
+*/
+
+public class Practical1 {
     public static void practical_1_Task_1() {
         String firstLine, secondLine, thirdLine;
         Scanner scanner = new Scanner(System.in);
