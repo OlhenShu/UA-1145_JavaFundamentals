@@ -16,7 +16,7 @@ public class Student {
         this.name = name;
         this.rating = rating;
         totalStudents++;
-        totalRating +=rating;
+        totalRating += rating;
     }
 
     static public double avgRating() {
@@ -24,7 +24,6 @@ public class Student {
     }
 
     static public int getTotalRating() {
-
         return totalRating;
     }
 

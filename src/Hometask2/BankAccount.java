@@ -1,6 +1,6 @@
 package Hometask2;
 
-
+// Practical task from the online platform; with auto-checking
 public class BankAccount {
         private String accountNumber;
         private double balance;
