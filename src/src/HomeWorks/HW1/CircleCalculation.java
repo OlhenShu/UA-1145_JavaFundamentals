@@ -8,9 +8,19 @@ public class CircleCalculation {
         System.out.println(" What is a radius of flower bed in cm?");
         double radius = scanner.nextDouble();
 
-        double perimeter = 2 * radius * Math.PI;
-        double area = Math.pow(radius, 2) * Math.PI;
+        double perimeter = findPerimeter(radius);
+        double area = findArea(radius);
 
         System.out.printf("The perimeter of flower bed is %.2f cm and the area is %.2f cm2.", perimeter, area);
+    }
+
+    public static double findPerimeter(double radius) {
+        double perimeter = 2 * radius * Math.PI;
+        return perimeter;
+    }
+
+    public static double findArea(double radius) {
+        double area = Math.pow(radius, 2) * Math.PI;
+        return area;
     }
 }
