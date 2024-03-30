@@ -1,14 +1,26 @@
 package Homework_6.Task2;
 
 public class Employee {
-    String name;
-    int age;
-    double salary;
+    private String name;
+    private int age;
+    private double salary;
 
     public Employee(String name, int age, double salary) {
         this.age = age;
         this.name = name;
         this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getSalary() {
+        return salary;
     }
 
     public String report() {
