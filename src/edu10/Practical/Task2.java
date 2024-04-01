@@ -1,10 +1,10 @@
 package edu10.Practical;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
 import static java.lang.System.in;
 
 public class Task2 {
@@ -57,15 +57,44 @@ class EmployeeManagementSystem {
         System.out.println("Bye!");
     }
 
-    private Employee promptNewEmployee() {
+    private int readIdForNewEmployee() {
         var SCANNER = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("Enter id");
+            int id = Integer.parseInt(SCANNER.nextLine());
+            if (employees.containsKey(id)) {
+                return id;
+            }
+            System.out.println("Such id is already occupied, choose another one");
+        }
+    }
+
+    private Employee promptNewEmployee() {
+        var SCANNER = new Scanner(in);
         System.out.println("Let's add new employee");
+        int id = readIdForNewEmployee();
+        System.out.println("Enter name: ");
+        String name = SCANNER.nextLine();
+        Position position = readPosition();
+        System.out.println("Enter salary: ");
+        double salary = Double.parseDouble(SCANNER.nextLine());
+        System.out.println("Enter DOB(in format 1999-01-30)");
+        LocalDate dob = LocalDate.parse(SCANNER.nextLine().trim());
         return new Employee(
-                3,
-                "John",
-                Position.DEVOPS,
-                15000,
-                LocalDate.parse("2001-03-30"));
+                id,
+                name,
+                position,
+                salary,
+                dob);
+    }
+
+    private Position readPosition() {
+        var SCANNER = new Scanner(System.in);
+        System.out.println("Enter Position: (one of "+
+                Arrays.toString(Position.values()) + "):");
+        var positionText = SCANNER.nextLine();
+        return Position.valueOf(positionText.trim().toUpperCase());
     }
 
     private void showEmployees() {
@@ -95,7 +124,7 @@ class EmployeeManagementSystem {
     }
 }
 
-record Employee (
+record  Employee (
         int id,
         String name,
         Position position,
