@@ -1,6 +1,5 @@
 package homework.hw3.student;
 
-import homework.hw3.person.Person;
 
 import java.util.*;
 

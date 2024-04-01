@@ -2,14 +2,7 @@ package homework.hw3.student;
 
 import java.util.List;
 
-public class Student {
-    private String name;
-    private double rating;
-
-    public Student(String name, double rating) {
-        this.name = name;
-        this.rating = rating;
-    }
+public record Student(String name, double rating) {
 
     public static Student input(List<Student> studentsList, String... values) {
         var student = new Student(values[0], Double.parseDouble(values[1]));
@@ -25,7 +18,7 @@ public class Student {
 
         double totalRating = 0;
         for (Student student : studentsList) {
-            totalRating += student.getRating();
+            totalRating += student.rating();
         }
         return totalRating;
     }
@@ -35,15 +28,7 @@ public class Student {
     }
 
     public boolean betterStudent(Student otherStudent) {
-        return this.rating > otherStudent.getRating();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getRating() {
-        return rating;
+        return this.rating > otherStudent.rating();
     }
 
     @Override
