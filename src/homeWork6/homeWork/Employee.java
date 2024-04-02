@@ -1,9 +1,9 @@
 package homeWork6.homeWork;
 
 public class Employee {
-    private String name;
-    private int age;
-    private double salary;
+    private final String name;
+    private final int age;
+    private final double salary;
 
     public Employee(String name, int age, double salary) {
         this.name = name;
@@ -18,7 +18,7 @@ public class Employee {
 }
 class Developer extends Employee{
 
-    private String position;
+    private final String position;
 
     public Developer(String name, int age, double salary, String position) {
         super(name, age, salary);

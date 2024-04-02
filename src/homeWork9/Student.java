@@ -5,9 +5,8 @@ import java.util.*;
 public class Student {
 
     private final Map<String, Integer> grades;
-    List<Student> student = new LinkedList<>();
-    private String name;
-    private String group;
+    private final String name;
+    private final String group;
     private int course;
 
     public Student(String name, String group, int course) {

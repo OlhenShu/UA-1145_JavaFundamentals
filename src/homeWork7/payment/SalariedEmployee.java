@@ -1,9 +1,9 @@
 package homeWork7.payment;
 
 class SalariedEmployee extends Employee implements Payment {
-    private String name;
-    private double fixedMonthlyPayment;
-    private String socialSecurityNumber;
+    private final String name;
+    private final double fixedMonthlyPayment;
+    private final String socialSecurityNumber;
 
     public SalariedEmployee(String employeeId, String name, double fixedMonthlyPayment, String socialSecurityNumber) {
         super(employeeId);

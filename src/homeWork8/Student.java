@@ -1,7 +1,7 @@
 package homeWork8;
 
 public class Student extends Person {
-    private int courseID;
+    private final int courseID;
 
     public Student(FullName fullName, int age,int courseID) {
         super(fullName, age);

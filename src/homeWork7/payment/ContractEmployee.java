@@ -1,10 +1,10 @@
 package homeWork7.payment;
 
 class ContractEmployee extends Employee implements Payment {
-    private String name;
-    private double hourlyRate;
-    private int numbOfHoursWorked;
-    private String federalTaxIdMember;
+    private final String name;
+    private final double hourlyRate;
+    private final int numbOfHoursWorked;
+    private final String federalTaxIdMember;
 
     public ContractEmployee(String employeeId, String name, double hourlyRate, int numbOfHoursWorked, String federalTaxIdMember) {
         super(employeeId);

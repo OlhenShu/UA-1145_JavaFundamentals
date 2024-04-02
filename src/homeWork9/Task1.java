@@ -40,7 +40,7 @@ public class Task1 {
 
     void printLists() {
         list1.forEach(number -> System.out.print(number + " "));
-        System.out.println("");
+        System.out.println("    ");
         list2.forEach(number -> System.out.print(number + " "));
     }
 
