@@ -90,5 +90,7 @@ public class Main {
         } else {
             System.out.println("\nMinimum is last element");
         }
+
+        in.close();
     }
 }
