@@ -1,7 +1,6 @@
 package edu10.task3;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -13,7 +12,9 @@ public class Main {
                 new Student("Alisa", 4),
                 new Student("Rulon", 3));
 
-        Collections.sort(students, Comparator.comparing(Student::getName));
+        // Collections.sort(students, Comparator.comparing(Student::getName));
+        //can be this
+        students.sort(Comparator.comparing(Student::getName));
 
         System.out.println("За іменем:");
         for (Student student : students) {
@@ -21,7 +22,7 @@ public class Main {
         }
 
         // Сортировка списка студентов по курсу
-        Collections.sort(students, Comparator.comparingInt(Student::getCourse));
+        students.sort(Comparator.comparingInt(Student::getCourse));
 
         System.out.println("\nЗа курсом:");
         for (Student student : students) {

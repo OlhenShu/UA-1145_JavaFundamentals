@@ -9,9 +9,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in).useLocale(Locale.US);
-
-        try {
+//better try with resources
+        try (Scanner in = new Scanner(System.in).useLocale(Locale.US)) {
             System.out.print("Input the first number: ");
             double firstNum = in.nextDouble();
             System.out.print("Input the second number: ");
@@ -22,8 +21,6 @@ public class Main {
             System.out.println("Result of division: " + result);
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
-        } finally {
-            in.close();
         }
     }
 }

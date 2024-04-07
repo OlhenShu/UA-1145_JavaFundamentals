@@ -4,16 +4,35 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class Main {
-    public static HashSet<Integer> union(HashSet first, HashSet second) {
-        HashSet<Integer> resultSet = new HashSet<>();
-        resultSet.addAll(first);
+    //    public static HashSet<Integer> union(HashSet first, HashSet second) {
+//        HashSet<Integer> resultSet = new HashSet<>();
+//        resultSet.addAll(first);
+//        resultSet.addAll(second);
+//        return resultSet;
+//    }
+    //some improve
+    public static HashSet<Integer> union(HashSet<Integer> first, HashSet<Integer> second) {
+        if (first == null || second == null) {
+            throw new IllegalArgumentException("Input sets cannot be null");
+        }
+        HashSet<Integer> resultSet = new HashSet<>(first);
         resultSet.addAll(second);
         return resultSet;
     }
 
-    public static HashSet<Integer> intersection(HashSet first, HashSet second) {
-        HashSet<Integer> resultSet = new HashSet<>();
-        resultSet.addAll(first);
+
+    //    public static HashSet<Integer> intersection(HashSet first, HashSet second) {
+//        HashSet<Integer> resultSet = new HashSet<>();
+//        resultSet.addAll(first);
+//        resultSet.retainAll(second);
+//        return resultSet;
+//    }
+    //and here
+    public static HashSet<Integer> intersection(HashSet<Integer> first, HashSet<Integer> second) {
+        if (first == null || second == null) {
+            throw new IllegalArgumentException("Input sets cannot be null");
+        }
+        HashSet<Integer> resultSet = new HashSet<>(first);
         resultSet.retainAll(second);
         return resultSet;
     }

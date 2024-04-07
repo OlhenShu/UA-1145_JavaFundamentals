@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap<String, String> personMap = new HashMap<String, String>();
+        HashMap<String, String> personMap = new HashMap<>();
 
         personMap.put("Vetrov", "Vitalii");
         personMap.put("Shevchenko", "Orest");
