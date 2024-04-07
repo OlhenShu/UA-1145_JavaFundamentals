@@ -38,12 +38,12 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.print("Input course: ");
         int course = in.nextInt();
-        System.out.println("Before removing underperforming students:");
+        System.out.println("Before removing underperformed students:");
         printStudents(students, course);
 
         removeUnderperformingStudents(students);
 
-        System.out.println("\nAfter removing underperforming students and promoting:");
+        System.out.println("\nAfter removing underperformed students and promoting:");
         printStudents(students, course);
 
         in.close();

@@ -8,8 +8,8 @@ public class Main {
         List<Integer> list1 = new ArrayList<>();
         List<Integer> list2 = new ArrayList<>();
         Scanner in = new Scanner(System.in);
-        int maxNumber = -1, minNumber = 101, k;
-        for (int i = 0; i < 10; i++) {
+        int maxNumber = -1, minNumber = 101, k;//on different line
+        for (int i = 0; i < 10; i++) {//don`t use concrete numbers, create constant for bounds and size
             Random random = new Random();
             int temp = random.nextInt(-100, 100);
             maxNumber = Math.max(maxNumber, temp);
