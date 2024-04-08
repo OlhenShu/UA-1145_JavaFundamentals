@@ -1,21 +1,36 @@
 package First;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 
 import static First.Main.SCANNER;
+
 public class Triangle {
     private static int firstSide;
     private static int secondSide;
     private static int thirdSide;
+
     public static void input() {
-        Locale.setDefault(Locale.ROOT);
-        System.out.println("Input side 1: ");
-        firstSide = SCANNER.nextInt();
-        System.out.println("Input side 2: ");
-        secondSide = SCANNER.nextInt();
-        System.out.println("Input side 3: ");
-        thirdSide = SCANNER.nextInt();
-        System.out.println(" ");
+        while (true) {
+            try {
+                Locale.setDefault(Locale.ROOT);
+                System.out.println("Input side 1: ");
+                firstSide = SCANNER.nextInt();
+                System.out.println("Input side 2: ");
+                secondSide = SCANNER.nextInt();
+                System.out.println("Input side 3: ");
+                thirdSide = SCANNER.nextInt();
+                System.out.println(" ");
+                triangleExistence();
+                break;
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+                SCANNER.nextLine();
+            } catch (InputMismatchException e) {
+                System.out.println("Entered value must be an integer");
+                SCANNER.nextLine();
+            }
+        }
     }
 
     // check if the triangle can be created using the triangle existence rule
@@ -24,9 +39,7 @@ public class Triangle {
             System.out.println("This triangle can be created");
             System.out.println(" ");
         } else {
-            System.out.println("Triangle can't be created");
-            // exiting the program with status code 0 (indicating successful termination)
-            System.exit(0);
+            throw new IllegalArgumentException("Triangle can`t be created. Please input correct values using the triangle existence rule");
         }
     }
 
