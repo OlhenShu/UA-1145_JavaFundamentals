@@ -34,7 +34,7 @@ public abstract class Person implements Cloneable {
     @Override
     public Person clone() throws CloneNotSupportedException {
         Person clonedPerson = (Person) super.clone();
-        clonedPerson.fullName = (FullName) this.fullName.clone();
+        clonedPerson.fullName = this.fullName.clone();
         return clonedPerson;
     }
 }

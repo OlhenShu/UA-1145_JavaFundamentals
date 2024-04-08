@@ -1,6 +1,6 @@
 package HomeWorks.HW8;
 
-public class FullName {
+public class FullName implements Cloneable {
     private String firstName;
     private String lastName;
 
@@ -34,7 +34,7 @@ public class FullName {
     }
 
     @Override
-    protected Object clone() {
-        return new FullName(this.firstName, this.lastName);
+    protected FullName clone() throws CloneNotSupportedException {
+        return (FullName) super.clone();
     }
 }

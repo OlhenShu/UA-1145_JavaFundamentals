@@ -22,8 +22,7 @@ public class Student extends Person implements Cloneable {
     @Override
     public Student clone() {
         try {
-            Student clonedStudent = (Student) super.clone();
-            return clonedStudent;
+            return (Student) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new RuntimeException(e);
         }
