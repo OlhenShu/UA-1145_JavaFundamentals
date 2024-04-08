@@ -1,5 +1,6 @@
 package Second;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 
 import static Second.Main.SCANNER;
@@ -9,13 +10,21 @@ public class Number {
     private static int secondNumber;
     private static int thirdNumber;
     public static void input() {
-        Locale.setDefault(Locale.ROOT);
-        System.out.println("Input the first number: ");
-        firstNumber = SCANNER.nextInt();
-        System.out.println("Input the second number: ");
-        secondNumber = SCANNER.nextInt();
-        System.out.println("Input the third number: ");
-        thirdNumber = SCANNER.nextInt();
+        while (true) {
+            try {
+                Locale.setDefault(Locale.ROOT);
+                System.out.println("Input the first number: ");
+                firstNumber = SCANNER.nextInt();
+                System.out.println("Input the second number: ");
+                secondNumber = SCANNER.nextInt();
+                System.out.println("Input the third number: ");
+                thirdNumber = SCANNER.nextInt();
+                break;
+            } catch (InputMismatchException e) {
+                System.err.println("Entered values are non-integer");
+                SCANNER.nextLine();
+            }
+        }
     }
 
     public static void findSmallest() {

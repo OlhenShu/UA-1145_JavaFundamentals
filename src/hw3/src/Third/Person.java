@@ -1,5 +1,8 @@
 package Third;
+import java.util.InputMismatchException;
+
 import static Third.Main.SCANNER;
+
 public class Person {
     private String firstName;
     private String lastName;
@@ -23,9 +26,17 @@ public class Person {
         System.out.println("Enter person`s last name: ");
         person.setLastName(SCANNER.nextLine());
 
-        System.out.println("Enter person`s birth year: ");
-        person.setBirthYear(SCANNER.nextInt());
-        SCANNER.nextLine();
+        while(true) {
+           try {
+               System.out.println("Enter person`s birth year: ");
+               person.setBirthYear(SCANNER.nextInt());
+               SCANNER.nextLine();
+               break;
+           } catch (InputMismatchException e) {
+               System.err.println("Entered value is non-integer");
+               SCANNER.nextLine();
+           }
+        }
     }
 
     public static void output(Person person) {
