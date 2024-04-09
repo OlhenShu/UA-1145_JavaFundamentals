@@ -1,5 +1,7 @@
 package Task2;
 
+import java.util.InputMismatchException;
+
 import static Task2.Main.SCANNER;
 
 public class NumbersValue {
@@ -8,12 +10,20 @@ public class NumbersValue {
     private static int third;
 
     public static void inputNumbers() {
-        System.out.println("Enter first number: ");
-        first = SCANNER.nextInt();
-        System.out.println("Enter second number: ");
-        second = SCANNER.nextInt();
-        System.out.println("Enter third number: ");
-        third = SCANNER.nextInt();
+        while (true) {
+            try {
+                System.out.println("Enter first number: ");
+                first = SCANNER.nextInt();
+                System.out.println("Enter second number: ");
+                second = SCANNER.nextInt();
+                System.out.println("Enter third number: ");
+                third = SCANNER.nextInt();
+                break;
+            } catch (InputMismatchException e) {
+                System.err.println("Entered number is non-integer. Please enter correct value");
+                SCANNER.nextLine();
+            }
+        }
     }
 
     public static void minimalValue() {

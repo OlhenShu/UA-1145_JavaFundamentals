@@ -1,11 +1,20 @@
 package Task3;
+
 import static Task3.Main.SCANNER;
+
 public class ErrorWorking {
     private static int errorNumber;
+
     public static int errorNumberInput() {
-        System.out.println("Enter the error number you want to know more about: ");
-        errorNumber = SCANNER.nextInt();
-        return errorNumber;
+        while (true) {
+            try {
+                System.out.println("Enter the error number you want to know more about: ");
+                errorNumber = SCANNER.nextInt();
+                return errorNumber;
+            } catch (NumberFormatException e) {
+                System.err.println("Entered value is non-integer. Please enter something in range [400-410]");
+            }
+        }
     }
 
     public static String errorNumberOutputLogic() {
@@ -21,13 +30,20 @@ public class ErrorWorking {
             case 408 -> HTTPError.Error408.name;
             case 409 -> HTTPError.Error409.name;
             case 410 -> HTTPError.Error410.name;
-            default -> throw new IllegalArgumentException("Unknown error number: " + errorNumber);
+            default -> throw new IllegalArgumentException("There is no error with this number. Try something between [400-410]");
         };
     }
 
     public static void errorNameOutput() {
-        int errorNumber = errorNumberInput();
-        String errorName = errorNumberOutputLogic();
-        System.out.println("The name of Error" + errorNumber + " is: " + errorName);
+      while(true) {
+          try {
+              int errorNumber = errorNumberInput();
+              String errorName = errorNumberOutputLogic();
+              System.out.println("The name of Error" + errorNumber + " is: " + errorName);
+              break;
+          } catch (IllegalArgumentException e) {
+              System.out.println(e.getMessage());
+          }
+      }
+        }
     }
-}
