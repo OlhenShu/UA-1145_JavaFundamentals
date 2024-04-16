@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Введіть текст, що містить формат валюти США:");
+        System.out.println("Please input text containing US currency format:");
         String text = in.nextLine();
 
         String currencyRegex = "\\$\\d+(\\.\\d{2})?";
@@ -17,7 +17,7 @@ public class Main {
 
         Matcher matcher = pattern.matcher(text);
 
-        System.out.println("Що є у введеному тексті:");
+        System.out.println("Found US currency formats in the input text:");
         while (matcher.find()) {
             System.out.println(matcher.group());
         }
@@ -25,3 +25,5 @@ public class Main {
         in.close();
     }
 }
+
+// Example of the input data: "I bought a book for $15.99 and a coffee for $3.50."

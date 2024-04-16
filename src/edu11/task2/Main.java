@@ -6,12 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Введіть речення: ");
+        System.out.print("Enter a sentence: ");
         String sentence = in.nextLine();
 
         String cleanedSentence = sentence.replaceAll("\\s+", " ");
 
-        System.out.println("Речення після змін: " + cleanedSentence);
+        System.out.println("Sentence after changes: " + cleanedSentence);
 
         in.close();
     }

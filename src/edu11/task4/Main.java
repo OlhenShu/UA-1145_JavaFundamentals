@@ -21,12 +21,12 @@ public class Main {
         String name;
         boolean validName = false;
         do {
-            System.out.print("Введіть ім'я та прізвище: ");
+            System.out.print("Enter your first and last name: ");
             name = scanner.nextLine();
             if (name.matches(nameRegex)) {
                 validName = true;
             } else {
-                System.out.println("Ім'я та прізвище можуть містити лише англійські літери, пробіли та дефіси. Спробуйте знову.");
+                System.out.println("First and last names may only contain English letters, spaces, and hyphens. Please try again.");
             }
         } while (!validName);
 
@@ -36,3 +36,6 @@ public class Main {
         scanner.close();
     }
 }
+
+// Example of the invalid test data: "John-Дмитро123 Smith"
+//Example of valid test data: "Alice-Smith Johnson"
