@@ -16,15 +16,15 @@ public class Main {
         //can be this
         students.sort(Comparator.comparing(Student::getName));
 
-        System.out.println("За іменем:");
+        System.out.println("Sorted by name:");
         for (Student student : students) {
             System.out.println("Name: " + student.getName() + " Course: " + student.getCourse());
         }
 
-        // Сортировка списка студентов по курсу
+        // Sort the list of students by course
         students.sort(Comparator.comparingInt(Student::getCourse));
 
-        System.out.println("\nЗа курсом:");
+        System.out.println("\nSorted by course:");
         for (Student student : students) {
             System.out.println("Name: " + student.getName() + " Course: " + student.getCourse());
         }

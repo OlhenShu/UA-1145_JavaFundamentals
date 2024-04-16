@@ -19,12 +19,12 @@ public class Main {
         personMap.put("Camel", "Ivan");
         personMap.put("Oboev", "Rulon");
 
-        System.out.println("Мапа до внесення змін: ");
+        System.out.println("Map before changes: ");
         printPersons(personMap);
 
         //HashMap <String, String> newPersonMap = deleteOrest(personMap);
 
-        System.out.println("Мапа після внесення змін: ");
+        System.out.println("Map after changes: ");
         List<String> keys = new ArrayList<>();
         for (HashMap.Entry<String, String> pair : personMap.entrySet()) {
             String key = pair.getKey();
