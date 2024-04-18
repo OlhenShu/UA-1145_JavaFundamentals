@@ -28,12 +28,12 @@ public class Helicopter extends FlyingVehicle {
 
     @Override
     public void fly() {
-        System.out.println("Helicopters can change direction easily during flight" +
-                ", but their flight range is limited to up to 500 km.");
+        System.out.println("Helicopter can change direction easily during flight" +
+                ", but his flight range is limited to up to 500 km.");
     }
 
     @Override
     public void land() {
-        System.out.println("Helicopter can land on any landing zone, that can fit his rotor blades");
+        System.out.println("Helicopter can land on any landing zone that can fit his rotor blades");
     }
 }
