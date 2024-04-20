@@ -1,0 +1,4 @@
+Number of lines in file1.txt: 64
+The longest line in file1.txt: - Determining, modifying and maintaining the most effective and efficient technical approach and workflow possible on assigned projects.
+Name: Yurii Nimets
+Birthday Date: 30.08.1981
