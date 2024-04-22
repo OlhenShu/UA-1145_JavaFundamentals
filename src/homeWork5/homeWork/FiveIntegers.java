@@ -61,8 +61,9 @@ public class FiveIntegers {
 }
 
 class RunFiveIntegers {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
 
         FiveIntegers fiveIntegers = new FiveIntegers();
         fiveIntegers.positionOfSecondPositiveNum(sc);
@@ -70,3 +71,10 @@ class RunFiveIntegers {
         fiveIntegers.productOfEvenNumbers(sc);
     }
 }
+//Each method calls inputNumbers, which could lead to repeated prompts for input.
+// Consider separating the input collection from the processing logic.
+
+//Initialize firstPositiveIndex and secondPositiveIndex to -1 to correctly identify positions.
+//The initial values for firstPositiveIndex and secondPositiveIndex should be -1 instead of 0 to correctly handle arrays starting with a positive number.
+
+// Complete the productOfEvenNumbers method to ensure it prints out the result.
