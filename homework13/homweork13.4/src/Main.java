@@ -4,8 +4,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
-        // Set your birthday
-        LocalDate birthday = LocalDate.of(2005, 7, 9); // Assuming your birthday is January 1, 2000
+        LocalDate birthday = LocalDate.of(2005, 7, 9); 
 
         printDayOfWeek(birthday);
 
