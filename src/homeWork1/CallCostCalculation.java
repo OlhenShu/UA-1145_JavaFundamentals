@@ -8,7 +8,7 @@ public class CallCostCalculation {
     private double duration;
     private double result;
 
-    private Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);//can be static
 
     protected void callCostCalculator(){
         System.out.println("Enter the cost per minute?");
