@@ -1,4 +1,4 @@
-package edu08;
+package edu08.homeWork;
 
 public class Student extends Person implements Cloneable {
     private int course;

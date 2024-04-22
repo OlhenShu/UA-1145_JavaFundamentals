@@ -1,4 +1,4 @@
-package edu08;
+package edu08.homeWork;
 
 
 abstract class Person {
