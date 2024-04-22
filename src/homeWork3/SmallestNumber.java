@@ -3,8 +3,9 @@ package homeWork3;
 import java.util.Scanner;
 
 public class SmallestNumber {
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         NumbersOperations numbersOperations = new NumbersOperations();
         numbersOperations.inputNumbers(sc);
         numbersOperations.getSmallestNumber();

@@ -4,13 +4,16 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 public class PersonOperations {
+
+    static Scanner sc = new Scanner(System.in);//better this variant
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
         Person person1 = new Person();
         person1.setFirstName("Anna");
         person1.setLastName("SomeLN");
-        person1.setBirthYear(1997);
+        person1.setBirthYear(1997);//you have a constructor for 3 parameters and better to use it
+
         person1.changeName("AnnaEdited", "SomeLNEdited");
         person1.output();
 

@@ -3,8 +3,10 @@ package homeWork3;
 import java.util.Scanner;
 
 public class TriangleArea {
+    static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         Triangle triangle = new Triangle();
 
         System.out.print("Input the length of side 1: ");
@@ -42,10 +44,11 @@ class Triangle {
     }
 
     public double getArea() {
-        double s = (side1 + side2 + side3) / 2;
+        double s = (side1 + side2 + side3) / 2;//better naming half-perimeter
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 
 }
+
 
 
