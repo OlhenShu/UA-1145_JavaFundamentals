@@ -14,7 +14,7 @@ public class Application {
             throw new RuntimeException(e);
         }
         cloneOfStudent.setCourse(1);
-        cloneOfStudent.setFullName("Peter", "Asdfg");
+        cloneOfStudent.setFullName("Peter", "Jackalope");
 
         System.out.println();
         System.out.println(student1.info() + "; activity: " + student1.activity());
