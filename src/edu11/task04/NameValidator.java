@@ -1,6 +1,5 @@
-package edu13.task04;
+package edu11.task04;
 
-import java.util.Random;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
