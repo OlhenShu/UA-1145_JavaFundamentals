@@ -4,16 +4,21 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class Main {
-    public static HashSet<Integer> union(HashSet firstNum, HashSet secondNum) {
-        HashSet<Integer> finalSet = new HashSet<>();
-        finalSet.addAll(firstNum);
+    public static HashSet<Integer> union(HashSet<Integer> firstNum, HashSet<Integer> secondNum) {
+        if (firstNum == null || secondNum == null) {
+            throw new IllegalArgumentException("Numbers can't be null");
+        }
+        HashSet<Integer> finalSet = new HashSet<>(firstNum);
         finalSet.addAll(secondNum);
         return finalSet;
     }
 
-    public static HashSet<Integer> intersection(HashSet firstNum, HashSet secondNum) {
-        HashSet<Integer> finalSet = new HashSet<>();
-        finalSet.addAll(firstNum);
+
+    public static HashSet<Integer> intersection(HashSet<Integer> firstNum, HashSet<Integer> secondNum) {
+        if (firstNum == null || secondNum == null) {
+            throw new IllegalArgumentException("Numbers can't be null");
+        }
+        HashSet<Integer> finalSet = new HashSet<>(firstNum);
         finalSet.addAll(secondNum);
         return finalSet;
     }
