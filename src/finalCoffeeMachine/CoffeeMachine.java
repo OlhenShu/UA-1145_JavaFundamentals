@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
     // Initial amounts of resources
-    private static int money = 550;
-    private static int water = 400;
-    private static int milk = 540;
-    private static int coffeeBeans = 120;
-    private static int disposableCups = 9;
+    private static int water = 500;
+    private static int milk = 600;
+    private static int coffeeBeans = 200;
+    private static int disposableCups = 10;
+    private static int money = 600;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -72,10 +72,6 @@ public class CoffeeMachine {
     }
 
     //     Makes a cup of coffee with specified resources.
-    //     waterNeeded Amount of water needed (in ml)
-    //     milkNeeded Amount of milk needed (in ml)
-    //     coffeeBeansNeeded Amount of coffee beans needed (in grams)
-    //     cost - Cost of the coffee
 
     public static void makeCoffee(int waterNeeded, int milkNeeded, int coffeeBeansNeeded, int cost) {
         if (water < waterNeeded) {
@@ -105,13 +101,10 @@ public class CoffeeMachine {
         coffeeBeans += scanner.nextInt();
         System.out.println("Write how many disposable cups you want to add:");
         disposableCups += scanner.nextInt();
-
-        // Consume newline character left in the input buffer
         scanner.nextLine();
     }
 
     //Allows user to take money from the coffee machine.
-
     public static void takeMoney() {
         System.out.println("I gave you $" + money);
         money = 0;
