@@ -1,4 +1,4 @@
-package HomeWorks.HW6.Ex1;
+package src.HomeWorks.HW6.Ex1;
 
 public class Kiwi extends NonFlyingBird {
     public Kiwi(String featherColor, int layEggs) {

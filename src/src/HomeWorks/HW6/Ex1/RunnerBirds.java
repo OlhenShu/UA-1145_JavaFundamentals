@@ -1,7 +1,13 @@
-package HomeWorks.HW6.Ex1;
+package src.HomeWorks.HW6.Ex1;
 
 public class RunnerBirds {
     public static void main(String[] args) {
+        //why you didn't use an array? like this
+        Bird[] birds = {new Eagle("Brown", 2),
+                new Swallow("Black", 1),
+                new Kiwi("Brown", 1),
+                new Penguin("Black and white", 2),
+        };
 
         Eagle eagle1 = new Eagle("Brown", 2);
         Eagle eagle2 = new Eagle("Brown", 3);
@@ -13,6 +19,11 @@ public class RunnerBirds {
         Swallow swallow3 = new Swallow("Black", 0);
         Penguin penguin1 = new Penguin("Black and white", 1);
         Penguin penguin2 = new Penguin("Black and white", 2);
+
+
+//        for (Bird bird : birds) {
+//            bird.fly();
+//        }// you can
 
         eagle1.fly();
         swallow1.fly();
