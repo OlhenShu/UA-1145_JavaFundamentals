@@ -2,7 +2,7 @@ package HomeWorks.HW5.Ex3;
 
 public class Runner {
     public static void main(String[] args) {
-
+        //use array or collections
         Car car1 = new Car("bus", 1988);
         Car car2 = new Car("sedan", 2019);
         Car car3 = new Car("sport", 2024);

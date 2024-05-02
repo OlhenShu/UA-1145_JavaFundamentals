@@ -29,17 +29,17 @@ public class Car {
             }
         }
         System.out.print("All cars of selected year: ");
-        if (cloneList.size() == 0) {
+        if (cloneList.size() == 0) {//better to use isEmpty()
             System.out.println("There were no cars in selected year :(");
         }
         for (int i = 0; i < cloneList.size() - 1; i++) {
             Car car = cloneList.get(i);
             System.out.print(car.getType() + "/ ");
         }
-        System.out.println(cloneList.get(cloneList.size() - 1).getType());
+        System.out.println(cloneList.get(cloneList.size() - 1).getType());// getLast()
     }
 
-
+    //if u use List, better to use Collections.sort() with a custom comparator.
     public static void printSortedCarsByYear() {
         ArrayList<Car> cloneList = (ArrayList<Car>) carList.clone();
         for (int i = 0; i < carList.size() - 1; i++) {
@@ -86,3 +86,6 @@ public class Car {
         this.engineCapacity = engineCapacity;
     }
 }
+//for this task, it's ok, but using Cloneable is not always recommended
+//Better using a copy constructor or a factory method to create a copy of Car objects.
+
