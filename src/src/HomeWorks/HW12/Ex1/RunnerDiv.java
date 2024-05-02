@@ -28,3 +28,7 @@ public class RunnerDiv {
         return a / b;
     }
 }
+//sing System.exit(0); within the catch block is generally not recommended as it forces the program to terminate.
+// Instead, consider allowing the program to complete its flow naturally or handle the error in a way that informs
+// the user of the issue without abrupt termination.
+//Everything else is done well.
