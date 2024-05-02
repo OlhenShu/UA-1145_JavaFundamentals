@@ -19,4 +19,4 @@ public class RunnerFindMoney {
 
     }
 }
-//Everything good
+//Everything good.
