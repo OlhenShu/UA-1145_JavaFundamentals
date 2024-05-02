@@ -40,8 +40,16 @@ public class RunnerPersonMap {
         }
         return "";
     }
+//    public static String findKeyViaName(HashMap<String, String> map, String name) {
+//        for (Map.Entry<String, String> entry : map.entrySet()) {
+//            if (entry.getValue().equalsIgnoreCase(name)) {
+//                return entry.getKey();
+//            }
+//        }
+//        return "";
+//    }
 
-    public static boolean findDuplicatesInMap(HashMap<String, String> map) {
+    public static boolean findDuplicatesInMap(HashMap<String, String> map) {//better naming "hasDuplicateNames"
         boolean is_hasDuplicates = true;
         HashMap<String, String> tmpMap = new HashMap<>();
         for (String lName : map.keySet()) {
@@ -51,5 +59,14 @@ public class RunnerPersonMap {
             is_hasDuplicates = false;
         }
         return is_hasDuplicates;
+        //other realization
+
+//        HashSet<String> names = new HashSet<>();
+//        for (String name : map.values()) {
+//            if (!names.add(name)) {  // add() returns false if the element was already in the set
+//                return true;
+//            }
+//        }
+//        return false;
     }
 }
