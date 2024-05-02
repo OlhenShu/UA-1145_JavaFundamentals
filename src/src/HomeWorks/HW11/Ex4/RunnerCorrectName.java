@@ -24,10 +24,15 @@ public class RunnerCorrectName {
         int i = random.nextInt(greetings.length);
 
         System.out.printf(greetings[i] + ", my dear %s %s!%n", name, surname);
+
+        // System.out.printf("%s, my dear %s %s!%n", greetings[i], name, surname);
     }
 
     public static String inputAndCheckName() {
-        String pattern = "(^[A-z- ]+$)";
+        //  String pattern = "^[A-Z][a-z]+(?:[-'\\s][A-Z][a-z]+)*$";  // Improved pattern for name validation
+        //Optionally, names can include a hyphen, apostrophe, or space followed by another capitalized segment,
+        // useful for names like "Jean-Luc", "O'Reilly", or "Anna Maria".
+        String pattern = "(^[A-z- ]+$)";//your pattern is partial correct
         boolean is_correctInput = false;
         String name = "";
         while (!is_correctInput) {
@@ -37,6 +42,8 @@ public class RunnerCorrectName {
                 is_correctInput = true;
             } else {
                 System.out.println("Incorrect input!");
+                //better
+                //System.out.println("Incorrect input! Please ensure your name starts with a capital letter and only contains letters, spaces, or hyphens.");
             }
         }
         return name;

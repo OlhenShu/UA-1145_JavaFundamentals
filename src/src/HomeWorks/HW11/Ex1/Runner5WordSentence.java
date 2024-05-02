@@ -4,12 +4,12 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Runner5WordSentence {
+    public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         String sent = scanner.nextLine();
-
+        //StringTokenizer is part of the legacy collection since JDK 1.0.
+        //It is recommended to use split() in new code unless there are specific reasons to prefer StringTokenizer.
         StringTokenizer stringTokenizer = new StringTokenizer(sent);
 
         String longestWord = findLongestWord(stringTokenizer);
@@ -22,9 +22,6 @@ public class Runner5WordSentence {
         int numbWord = 2;
         String secondWord = findNthWord(sent, numbWord);
         System.out.println("This is reversed word #" + numbWord + " from the initial sentence: " + reversWord(secondWord));
-
-
-        scanner.close();
     }
 
     public static String findNthWord(String sentence, int n) {
@@ -45,7 +42,7 @@ public class Runner5WordSentence {
 //        }
 //        return new String(finalList);
 //    }
-
+//Your reversWord method using StringBuilder is efficient and concise.Good idea!
     public static String reversWord(String word) {
         return String.valueOf(new StringBuilder(word).reverse());
     }
@@ -67,3 +64,6 @@ public class Runner5WordSentence {
         return longestWord;
     }
 }
+//When dealing with spaces, especially multiple consecutive spaces,
+// split() is more predictable because it handles them explicitly based on the regex provided.
+//For example, split(" ") will treat consecutive spaces as separate delimiters, resulting in empty strings for each space.

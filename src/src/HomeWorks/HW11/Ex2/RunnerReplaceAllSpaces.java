@@ -10,3 +10,4 @@ public class RunnerReplaceAllSpaces {
         System.out.println(res);
     }
 }
+//Everything good
