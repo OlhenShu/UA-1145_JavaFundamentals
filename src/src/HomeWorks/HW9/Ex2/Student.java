@@ -9,7 +9,8 @@ public class Student {
     private int course;
     private int averagePoint;
 
-    public static ArrayList<Student> studentList = new ArrayList<>();
+    public static ArrayList<Student> studentList = new ArrayList<>();//I leave a comment regarding such behavior in the 10th homework;
+    // here it is similar.
 
     public Student(String name, String group, int course) {
         this.name = name;
