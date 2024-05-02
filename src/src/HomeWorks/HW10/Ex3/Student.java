@@ -9,12 +9,15 @@ public class Student {
     private String name;
     private int course;
 
-    public static ArrayList<Student> studentList = new ArrayList<>();
+    public static ArrayList<Student> studentList = new ArrayList<>();//
+    //public and static lost can be problematic in terms of data encapsulation and object-oriented design principles.
+
+    // It's better to manage such a list externally or make it private and expose methods to manipulate or access it safely.
 
     public Student(String name, int course) {
         this.name = name;
         this.course = course;
-        studentList.add(this);
+        studentList.add(this);//Adding 'this' to studentList in the constructor can lead to unexpected behaviors
     }
 
     public static void printStudents(int course) {
@@ -82,3 +85,7 @@ public class Student {
         }
     }
 }
+/*
+ * Methods like printStudents, sortAndPrintByName, and sortAndPrintByCourse being static implies they are tied to the class rather than instances.
+ * This is ok for utility functions, but if these methods are intended to work on an instance basis, make sense to consider redesigning this approach.
+ * */
