@@ -49,8 +49,11 @@ public class ArrayCollection {
     public static void removeAfterMin(ArrayList<Integer> list) {
         ArrayList<Integer> copyList = new ArrayList<>(list);
         Collections.sort(copyList);
+        /*
+         * using Collections.sort for finding the minimum and maximum values which is not efficient
+         * since sorting takes O(nlogn) time complexity.*/
 
-        int minValue = copyList.get(0);
+        int minValue = copyList.get(0);//getFirst()
         int minIndex = list.indexOf(minValue);
 
         if (minIndex != list.size() - 1) {
@@ -58,6 +61,9 @@ public class ArrayCollection {
         }
     }
 
+    /*The method removeLastEven checks for zero incorrectly by comparing list.get(i) % 2 != 0 || list.get(i) == 0.
+     Zero is an even number
+    */
     public static void removeLastEven(ArrayList<Integer> list) {
         boolean is_findEven = false;
         for (int i = list.size() - 1; i > 0; i--) {
@@ -73,6 +79,10 @@ public class ArrayCollection {
         }
     }
 
+    /*
+     *method insertZero directly modifies the list during iteration, which can lead to 'ConcurrentModificationException' or unexpected behavior.
+     *This can be managed by iterating in reverse or using an explicit iterator.
+     * */
     public static void insertZero(ArrayList<Integer> list) {
         for (int i = 0; i < list.size() - 1; i++) {
             if ((list.get(i) * list.get(i + 1)) < 0) {
@@ -85,8 +95,8 @@ public class ArrayCollection {
         ArrayList<Integer> copyList = new ArrayList<>(list);
         Collections.sort(copyList);
 
-        int minValue = copyList.get(0);
-        int maxValue = copyList.get(copyList.size() - 1);
+        int minValue = copyList.get(0);//can replace with method getFirst()
+        int maxValue = copyList.get(copyList.size() - 1);//can replace with method getLast()
 
         int minIndex = list.indexOf(minValue);
         int maxIndex = list.indexOf(maxValue);
@@ -105,3 +115,7 @@ public class ArrayCollection {
         list.add(indexOfNegativeNumb, (random.nextInt(900) + 100));
     }
 }
+/**
+ * Both swapMinAndMax and removeAfterMin use similar patterns to find min and max.
+ * This could be refactored into a utility method to avoid repetition.
+ */
