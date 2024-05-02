@@ -18,9 +18,10 @@ public class AreaOfTriangle {
     }
 
     public static double calcAreaTriangle(int side1,int side2, int side3) {
-        double perimeter = side1 + side2 + side3;
+        double perimeter = side1 + side2 + side3;//must be half-perimeter
         double area = Math.sqrt(perimeter) * (perimeter - side1) + (perimeter - side2) + (perimeter - side3);
         return area;
     }
 
 }
+// for this task good idea create method, what will check that this triangle can be
