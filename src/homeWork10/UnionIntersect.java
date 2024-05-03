@@ -3,6 +3,7 @@ package homeWork10;
 import java.util.HashSet;
 import java.util.Set;
 
+//Good job!
 public class UnionIntersect {
 
     public static <T> Set<T> union(Set<T> set1, Set<T> set2) {
