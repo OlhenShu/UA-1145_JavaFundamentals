@@ -16,6 +16,8 @@ public class Student {
         this.grades = new HashMap<>();
     }
 
+    //If the list of a student's grades is empty, a division by zero will occur.
+// You should add a check to ensure that the size of the grades map is greater than zero before dividing.
     public static void removePromoteStudent(List<Student> list) {
         Iterator<Student> iterator = list.iterator();
         while (iterator.hasNext()) {

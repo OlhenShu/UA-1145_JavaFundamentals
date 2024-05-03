@@ -1,6 +1,9 @@
 package homeWork9;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
 import java.util.stream.IntStream;
 
 public class Task1 {
@@ -44,6 +47,8 @@ public class Task1 {
         list2.forEach(number -> System.out.print(number + " "));
     }
 
+    //If there are no negative elements, the number is inserted at the end.
+// This behavior corresponds to the add() method with an index of -1, which may be unexpected.
     void insertRandomNumBeforeFirstNegative() {
         int index = IntStream.range(0, myCollection.size())
                 .filter(n -> myCollection.get(n) < 0)
@@ -71,6 +76,8 @@ public class Task1 {
         list2.sort(Collections.reverseOrder());
     }
 
+    //it is better to store the last even number found, rather than the index,
+    // to determine whether any even numbers were found at all.
     void removeLastEvenNum() {
         int evenNumIndex = 0;
         for (int i = 0; i < myCollection.size(); i++) {
