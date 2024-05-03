@@ -1,6 +1,9 @@
 package homeWork10;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Student  {
     private String name;
@@ -23,7 +26,7 @@ public class Student  {
         return course;
     }
 
-
+    //Why do you use second parameter int course? Student has it in constructor
     void printStudent(LinkedList<Student> students, int course) {
         Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
