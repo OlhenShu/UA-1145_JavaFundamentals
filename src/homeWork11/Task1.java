@@ -11,6 +11,7 @@ public class Task1 {
         return sc.nextLine();
     }
 
+    //It would be better to split this method into several smaller methods.
     void sentenceOperations(Scanner sc) {
         Pattern pattern = Pattern.compile("\\b\\w+\\b");
         Matcher matcher = pattern.matcher(inputSentence(sc));
@@ -19,7 +20,16 @@ public class Task1 {
         String secondWordReverse = "";
         int maxLength = 0;
         int wordCount = 0;
-
+//The assignment specifies that the sentence must contain exactly five words,
+// but your code does not check if the entered sentence meets this requirement.
+// This can lead to incorrect behavior or erroneous results if the user enters fewer or more words.
+//        while (wordCount < 5 && matcher.find()) {
+//            // ...
+//        }
+//        if (wordCount != 5) {
+//            System.out.println("Error: Please enter exactly five words.");
+//            return;
+//        }
         while (matcher.find()) {
             String word = matcher.group();
             wordCount++;

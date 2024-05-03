@@ -16,6 +16,8 @@ public class Task3 {
         Pattern pattern = Pattern.compile("\\$[0-9,]+(\\.[0-9]{2})?");
         Matcher matcher = pattern.matcher(sentence);
 
+        //Only one while loop is needed to iterate through matches.
+        // Additional loops could lead to skipping results or causing an infinite loop
         while (matcher.find()){
             while (matcher.find()) {
                 System.out.println("Found: " + matcher.group());

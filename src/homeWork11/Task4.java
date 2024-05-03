@@ -2,7 +2,6 @@ package homeWork11;
 
 import java.util.Random;
 import java.util.Scanner;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task4 {
@@ -16,6 +15,8 @@ public class Task4 {
             "Dobryi den, %s!"
     };
 
+    //You might want to add additional logic to ensure that the user has entered a full name,
+// for example, by checking for the presence of at least one space between words.
     void greetingOfUSer(Scanner sc) {
         String validNameTemplate = "^[a-zA-Z\\s\\-]+$";
         boolean isNameValid = false;
