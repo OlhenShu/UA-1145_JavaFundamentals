@@ -1,6 +1,7 @@
 package denys.serdiuk.ProjectBudgetManager;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 
 public class BankAccount {
     private double income;
@@ -20,7 +21,11 @@ public class BankAccount {
         return purchases.toString();
     }
     public void addPurchases(Purchase newPurchase) {
+    	try {
         purchases.add(newPurchase);
+    	} catch(InputMismatchException e) {
+    		System.out.println("wrong purchase format");
+    	}
     }
 
     public double getIncome() {
@@ -32,6 +37,7 @@ public class BankAccount {
     }
 
     public void setIncome(double income) {
+    	
         this.income = income;
     }
 
