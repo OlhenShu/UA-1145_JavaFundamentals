@@ -52,7 +52,7 @@ class Triangle {
 //
 //In such tasks, it would be beneficial to add a check to ensure that the side values are positive and not zero.
 // From a mathematical standpoint,
-// it would also be prudent to include a verification to ascertain whether a triangle can exist with the given side lengths.
+// it would also be prudent to include a verification to tell whether a triangle can exist with the given side lengths.
 
 
 
