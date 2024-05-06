@@ -5,10 +5,14 @@ import java.util.Scanner;
 
 public class TheSmallestNumber {
     static int findSmallest(int first, int second, int third) {
-        int temp[] = {first, second, third};
+        int[] temp = {first, second, third};
         Arrays.sort(temp);
-        int result = temp[0];
-        return result;
+        return temp[0];
+    }
+
+    //for small task may be another simple solution
+    public static int findMin(int a, int b, int c) {
+        return Math.min(Math.min(a, b), c);
     }
 
     public static void main(String[] args) {

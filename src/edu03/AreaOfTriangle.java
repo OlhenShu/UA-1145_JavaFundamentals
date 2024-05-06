@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class AreaOfTriangle {
-    public static double calculateD(double Side1, double Side2, double Side3) {
-        double p = (Side1 + Side2 + Side3) / 2;
-        double S = Math.sqrt(p * (p - Side1) * (p - Side2) * (p - Side3));
+    public static double calculateD(double Side1, double Side2, double Side3) {//naming better to convention side1, side2...
+        double p = (Side1 + Side2 + Side3) / 2;//better half-perimeter
+        double S = Math.sqrt(p * (p - Side1) * (p - Side2) * (p - Side3));//better name square
 
         return S;
     }
@@ -25,4 +25,6 @@ public class AreaOfTriangle {
         scanner.close();
     }
 }
+//The solution is good and correct! Additionally, for these mathematical problems,
+// you can add checks to see if a triangle with such sides can exist, but it's not mandatory.
 
