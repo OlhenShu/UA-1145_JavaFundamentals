@@ -12,10 +12,13 @@ public class WordsCheck {
         String sentence = SCANNER.nextLine();
 
 
-        String[] words =sentence.split("\\s");
+        String[] words = sentence.split("\\s");//better to use "\\s+" for more than 1 space
         String longestWord = "";
         int maxLength = 0;
-
+        // Your program expects the user to enter exactly five words.
+        // However, you don't check whether the sentence you entered actually contains five words.
+        // This may throw an ArrayIndexOutOfBoundsException if fewer words are entered.
+        // Add a word count check before attempting to access an array.
         for (String word : words) {
             if (word.length() > maxLength) {
                 maxLength = word.length();

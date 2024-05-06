@@ -9,8 +9,9 @@ public class NameValidator {
     private static final Scanner SCANNER = new Scanner(in);
 
     public static void main(String[] args) {
-        Pattern namePattern = Pattern.compile("[a-zA-Z\\s-]+");
-
+        Pattern namePattern = Pattern.compile("[a-zA-Z\\s-]+");//"^[\\p{L}]+([ '-][\\p{L}]+)*\\s+[\\p{L}]+([ '-][\\p{L}]+)*$" if u check Unicode
+//another
+        //"^[a-zA-Z]+([ '-][a-zA-Z]+)*\\s+[a-zA-Z]+([ '-][a-zA-Z]+)*$"
         String firstName;
         String lastName;
         do {
