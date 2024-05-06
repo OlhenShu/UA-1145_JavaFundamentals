@@ -32,12 +32,11 @@ public class StudentApplication {
     }
 
     static List<Student> findAccessedStudents(List<Student> students) {
-        List<Student> accessedStudents = students.stream()
+        return students.stream()
                 .filter(student -> student.getAverageGrade() >= 3).toList();
-        return accessedStudents;
     }
 
-    static void printStudents(List<Student> students, int course) {
+    static void printStudents(List<Student> students, int course) {//student has course, that's why u don't need second parameter
 
         Collection<Student> collection = students.stream().filter(s -> s.getCourse() == course).toList();
         for (var c : collection) {

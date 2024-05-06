@@ -67,6 +67,7 @@ public class CollectionManipulation {
 
         Collections.swap(list, minIndex, maxIndex);
     }
+
     public static void removeLastEvenElement(List<Integer> list) {
         boolean foundEven = false;
 
