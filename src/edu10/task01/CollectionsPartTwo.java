@@ -3,6 +3,7 @@ package edu10.task01;
 import java.util.*;
 
 public class CollectionsPartTwo {
+    //These methods are well-implemented and showcase good use of Java Collections.
     public static <T> Set<T> union(Set<T> set1, Set<T> set2) {
         Set<T> result = new HashSet<>(set1);
         result.addAll(set2);
@@ -46,7 +47,7 @@ public class CollectionsPartTwo {
                 .count() >= 2;
 
         if (hasDuplicate) {
-            // Remove all people with first name "Orest"
+            // Remove all people with the first name "Orest"
             personMap.entrySet().removeIf(entry -> entry.getValue().equals(targetName));
         }
 
