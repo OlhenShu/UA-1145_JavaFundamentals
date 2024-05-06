@@ -11,5 +11,22 @@ public class Main {
         System.out.println(developer.report());
 
     }
-
+    //Example with instanceof
+//    public static void main(String[] args) {
+//        Employee employee = new Employee("Petro", 20, 52500.35);
+//        Employee devEmp = new Developer("Katerina", 28, 33735.0, "Middle SQL developer");
+//        Developer developer = new Developer("Taras", 32, 34000.0, "Average Java developer");
+//
+//        printReport(employee);
+//        printReport(devEmp);
+//        printReport(developer);
+//    }
+//
+//    public static void printReport(Employee employee) {
+//        if (employee instanceof Developer) {
+//            System.out.println("Developer's Report: " + employee.report());
+//        } else {
+//            System.out.println("Employee's Report: " + employee.report());
+//        }
+//    }
 }
