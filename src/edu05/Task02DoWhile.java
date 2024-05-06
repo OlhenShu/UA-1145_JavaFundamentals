@@ -28,9 +28,7 @@ public class Task02DoWhile {
     }
 
     public double calculateSum(double num1, double num2) {
-        double sum = num1 + num2;
-
-        return sum;
+        return num1 + num2;
     }
 
 }

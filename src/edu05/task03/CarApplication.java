@@ -10,12 +10,7 @@ public class CarApplication {
     public static void main(String[] args) {
         CarApplication application = new CarApplication();
 
-        Car[] cars = {
-                new Car("Citroen Jumpy", 2012, 2),
-                new Car("Ford Focus", 2013, 1.6),
-                new Car("Volvo S", 2004, 2.4),
-                new Car("Volkswagen Caravelle", 1999, 2.5)
-        };
+        Car[] cars = {new Car("Citroen Jumpy", 2012, 2), new Car("Ford Focus", 2013, 1.6), new Car("Volvo S", 2004, 2.4), new Car("Volkswagen Caravelle", 1999, 2.5)};
 
         System.out.println("Input 'year of production' of car what you seeking ");
         int inputYear = SCANNER.nextInt();
@@ -31,8 +26,7 @@ public class CarApplication {
         //placing cars in ascending order
         application.sort(cars);
         for (var car : cars) {
-            System.out.println(car.getCarType() + ", year of production: " + car.getYearOfProduction() +
-                    " and capacity of engine: " + car.getEngineCapacity());
+            System.out.println(car.getCarType() + ", year of production: " + car.getYearOfProduction() + " and capacity of engine: " + car.getEngineCapacity());
         }
     }
 
@@ -59,5 +53,4 @@ public class CarApplication {
             }
         }
     }
-
 }
