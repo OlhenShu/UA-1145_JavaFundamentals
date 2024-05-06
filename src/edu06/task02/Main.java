@@ -9,9 +9,18 @@ public class Main {
 
         System.out.println(devEmp.report());
         System.out.println(developer.report());
+        //better idea
+        // Employee[] employees = new Employee[3];
+        //    employees[0] = new Employee("Petro", 20, 52500.35);
+        //    employees[1] = new Developer("Katerina", 28, 33735.0, "Middle SQL developer");
+        //    employees[2] = new Developer("Taras", 32, 34000.0, "Average Java developer");
+        //
+        //    for (Employee emp : employees) {
+        //        System.out.println(emp.report());
+        //    }
 
     }
-    //Example with instanceof
+    //or an example with instanceof
 //    public static void main(String[] args) {
 //        Employee employee = new Employee("Petro", 20, 52500.35);
 //        Employee devEmp = new Developer("Katerina", 28, 33735.0, "Middle SQL developer");
