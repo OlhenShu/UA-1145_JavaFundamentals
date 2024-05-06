@@ -15,3 +15,4 @@ public class HomeworkEx2 {
         scanner.close();
     }
 }
+//Good job!

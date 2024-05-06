@@ -20,7 +20,6 @@ public class HomeworkEx3 {
         System.out.println("Введіть тривалість для третього дзвінка:");
         int d3 = scanner.nextInt();
 
-        scanner.close();
 
         double cost1 = c1 * d1;
         double cost2 = c2 * d2;
@@ -31,5 +30,7 @@ public class HomeworkEx3 {
         System.out.println("Вартість другого дзвінка: " + cost2);
         System.out.println("Вартість третього дзвінка: " + cost3);
         System.out.println("Загальна вартість: " + totalCost);
+        scanner.close();
     }
 }
+//Good job
