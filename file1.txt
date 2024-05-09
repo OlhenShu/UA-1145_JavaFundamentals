@@ -1,0 +1,66 @@
+Education:
+Master's degree in Engineer of Radio Telecommunication Equipment, National Aviation University
+
+Career:
+
+LLC ITC CDMA Ukraine™ (2006 - 2009)
+Software Engineer
+
+The main responsibilities:
+
+- Programming radio terminals for the CDMA network.
+- Terminal connection to the network and functional testing.
+- Minor mechanical repairs, including replacement of circuit board elements and terminal restoration.
+- Firmware updating of mobile phones.
+
+Ukrtelecom (2013 - 2015)
+Customer Issue Resolution Specialist
+
+The main responsibilities:
+
+- Managing customer issues, analyzing user needs, and resolving questions related to new subscriber connections.
+- Working, communicating, analyzing, and providing information with intermediaries connecting to internet and television networks.
+
+
+NewAgeLab (2015 - 2018)
+Content Editor
+
+Responsibilities:
+
+- Discussing technical characteristics and content settings with clients.
+- Editing provided content and filling websites.
+- Editing layout and configuring pages from the administrative panel.
+- Website testing.
+
+Astound Commerce (2018 - present time)
+Senior QA Engineer
+
+2018 - started working as a Junior QA Engineer on the project with an Iterative incremental model of SDLC methodology.
+2019 - reached the level of Middle QA Engineer and became a responsible person on the project with Scrum Agile-metodology.
+2022 - achieved the level of Senior QA Engineer and became a leader on a complex project with Scrum agile methodology.
+2023 - achieved the "Salesforce Certified Associate" certification.
+
+
+Responsibilities:
+
+- Analyzing business, functional requirements, and technical specifications for enterprise-level e-commerce solutions.
+- Creating/analyzing/verifying test cases in the test case management tool to ensure full requirements coverage.
+- Executing planned test cases/scenarios for defined testing levels/types within the project.
+- Creating bug reports in the bug tracking system and performing verification of fixed bugs.
+- Keeping all project QA-related documents/files up-to-date.
+- Performing QA effort estimates.
+- Participating in daily project team meetings and brainstorming activities.
+- Supporting and helping the QA team come up with the best technical solutions.
+- Following up on unclear issues with the client/team.
+- Participating in refinement calls with the team and clients, preparing and presenting demos to clients.
+- Conducting onboarding and coaching of new QA engineers.
+
+Skills and Experience:
+
+- QA Engineer, responsible person, and leader of complex e-commerce projects according to Astound SDLC.
+- Experience working with the Iterative incremental model of SDLC methodology and Scrum Agile methodology.
+- Test management (requirements analysis, test design using required test techniques, different types of test execution on desktop, mobile, and tablet environments, creating test plans and strategies, coordination, analysis, bug and test reporting, metrics collection, lessons learned).
+- Experience with tools: JIRA, Confluence, Zephyr for JIRA, Developer tools, Testim.
+- Change and scope management (identification, estimation).
+- Conducting presentations to clients.
+- Coaching and mentoring.
