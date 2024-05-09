@@ -60,7 +60,7 @@ Skills and Experience:
 - QA Engineer, responsible person, and leader of complex e-commerce projects according to Astound SDLC.
 - Experience working with the Iterative incremental model of SDLC methodology and Scrum Agile methodology.
 - Test management (requirements analysis, test design using required test techniques, different types of test execution on desktop, mobile, and tablet environments, creating test plans and strategies, coordination, analysis, bug and test reporting, metrics collection, lessons learned).
-- Experience with tools: JIRA, Confluence, Zephyr for JIRA, Developer tools, Testim.
+- Experience with tools: JIRA, Confluence, Zephyr for JIRA, Developer tools, "Testim".
 - Change and scope management (identification, estimation).
 - Conducting presentations to clients.
 - Coaching and mentoring.
