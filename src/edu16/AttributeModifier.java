@@ -26,7 +26,7 @@ public class AttributeModifier {
             reader.close();
             printer.close();
 
-            System.out.println("File modification complete.");
+            System.out.println("File modification is completed.");
         } catch (IOException e) {
             System.err.println("Error: " + e.getMessage());
         }
