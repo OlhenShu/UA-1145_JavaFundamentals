@@ -11,7 +11,8 @@ public class Main {
         System.out.print("Input а year: ");
         int year = in.nextInt();
         System.out.println("It is a leap year: " + isLeap(year));
-
+        //You can use Year.isLeap()
+        //System.out.println(Year.isLeap(2024));
         in.close();
     }
 }
