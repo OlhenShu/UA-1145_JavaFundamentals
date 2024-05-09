@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-private class Modifire {
+private class Modifier {
     private static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
