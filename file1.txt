@@ -44,7 +44,7 @@ Senior QA Engineer
 Responsibilities:
 
 - Analyzing business, functional requirements, and technical specifications for enterprise-level e-commerce solutions.
-- Creating/analyzing/verifying test cases in the test case management tool to ensure full requirements coverage.
+- Creating/analyzing/verifying test cases in the test case management tool to ensure full requirement coverage.
 - Executing planned test cases/scenarios for defined testing levels/types within the project.
 - Creating bug reports in the bug tracking system and performing verification of fixed bugs.
 - Keeping all project QA-related documents/files up-to-date.

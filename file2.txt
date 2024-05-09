@@ -1,4 +1,4 @@
 Count of lines in file1.txt: 66
 Longest line in file1.txt: - Test management (requirements analysis, test design using required test techniques, different types of test execution on desktop, mobile, and tablet environments, creating test plans and strategies, coordination, analysis, bug and test reporting, metrics collection, lessons learned).
 My name: Anna
-Birthday date: June 25, 1983
+Birthday date: 1983, June 25
